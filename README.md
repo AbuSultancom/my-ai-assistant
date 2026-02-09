@@ -744,7 +744,7 @@ This project is not just a technical achievement—it is a **testament to my pot
 
 ### What I Learned
 
-Through this 18-month journey, I have demonstrated:
+Through this 21-month journey, I have demonstrated:
 
 1. **Technical Competence**: Mastery of Linux, AI/ML, and integration skills that exceed typical secondary education expectations.
 
