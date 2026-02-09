@@ -10,7 +10,7 @@
 ### 🏆 Self-Taught AI Engineering Project
 ### Demonstrating Passion, Dedication, and Self-Learning Ability
 
-**Built by someone who learned programming basics just 1 year ago!**
+**Built by someone who learned programming basics just 4 months ago!**
 
 **[View Project](https://github.com/AbuSultancom/my-ai-assistant)**
 
@@ -50,7 +50,9 @@ This project proves that **anyone can learn technology** if they have:
 | Fact | Details |
 |------|---------|
 | **Education** | High School Graduate (2023) |
-| **Computer Training** | Only 4 months institute (2023) |
+| **Computer Training** | 4 months institute (2023) |
+| **English Study** | EMS Malaysia (April 2024 - April 2025) |
+| **Current Studies** | Tianjin University (September 2025 - Present) |
 | **AI Self-Study** | 1 year of passionate learning |
 | **Model Deployed** | DeepSeek-R1 14B |
 | **Hardware** | RTX 4050 Laptop (6GB VRAM) |
@@ -71,7 +73,8 @@ This project proves that **anyone can learn technology** if they have:
 📍 Current Location: Tianjin, China
 📚 Education: High School Graduate (2023)
 💻 Computer Training: 4 months institute (2023)
-🎯 Current Status: Learning Chinese in China
+🇲🇾 English Study: EMS Malaysia (April 2024 - April 2025)
+🇨🇳 Current: Tianjin University (September 2025 - Present)
 📝 Goal: Preparing for CSCA exam
 ```
 
@@ -81,8 +84,8 @@ This project proves that **anyone can learn technology** if they have:
 |--------|-------------|-------|----------|
 | **2019-2023** | Al-Fateh International Schools | High School (Scientific) | 4 years |
 | **2023 (4 months)** | Computer Institute | Computer Basics | 4 months |
-| **2024** | Language Institute | English | 1 year |
-| **2024-Present** | Tianjin University | Chinese Language | Currently studying |
+| **Apr 2024 - Apr 2025** | EMS Language Centre, Malaysia | English Language | 1 year |
+| **Sep 2025 - Present** | Tianjin University, China | Chinese Language | Currently studying |
 
 ### Academic Performance
 
@@ -95,11 +98,11 @@ This project proves that **anyone can learn technology** if they have:
 
 ### Language Proficiency
 
-| Language | Level |
-|----------|-------|
-| **Arabic** | Native |
-| **English** | Advanced |
-| **Chinese** | Intermediate (currently learning) |
+| Language | Level | Details |
+|----------|-------|---------|
+| **Arabic** | Native | Mother tongue |
+| **English** | Advanced | EMS Malaysia (1 year) |
+| **Chinese** | Intermediate | Tianjin University (from Sep 2025) |
 
 ---
 
@@ -118,13 +121,15 @@ This project proves that **anyone can learn technology** if they have:
    • Basic computer skills
    • First steps in coding
 
-📅 2024: ENGLISH LANGUAGE STUDY
-   • 1 year of intensive English
-   • Prepared for further studies
+📅 Apr 2024 - Apr 2025: ENGLISH STUDY (MALAYSIA)
+   • 1 year intensive English at EMS Language Centre
+   • Prepared for further studies abroad
+   • Completed April 2025
 
-📅 2024-Present: CHINESE LANGUAGE IN CHINA
+📅 Sep 2025 - Present: CHINESE STUDY (CHINA)
    • Currently studying at Tianjin University
    • Learning Chinese daily
+   • First semester started September 2025
 
 📅 2024-Present: SELF-STUDY AI & PROGRAMMING
    • Learned Python through online resources
@@ -145,12 +150,12 @@ This project proves that **anyone can learn technology** if they have:
    • Started learning APIs
    • Discovered AI and LLMs
 
-💡 MONTH 5-6:
+💡 MONTH 5-8:
    • Learned Linux (Ubuntu)
    • Installed Ollama
    • Ran first AI model locally
 
-💡 MONTH 7-12:
+💡 MONTH 9-12:
    • Deep dive into DeepSeek-R1
    • Optimized for my hardware
    • Built the complete assistant system
@@ -467,7 +472,7 @@ Start learning today!
 
 ```
 📍 Tianjin, China
-   Currently learning Chinese
+   Currently learning Chinese at Tianjin University (from Sep 2025)
    Preparing for CSCA exam
    Available for interviews
 ```
@@ -502,6 +507,6 @@ MIT License - Use it, learn from it, share it!
 ---
 
 *Last Updated: February 10, 2026*
-*Version: 4.0 - The Honest Version*
+*Version: 5.0 - Corrected Timeline*
 
 </div>
