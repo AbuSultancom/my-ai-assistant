@@ -11,7 +11,7 @@
 
 ---
 
-**Built by a self-taught developer with AI assistance**
+**Built by: Abdulhameed | Self-taught developer with AI assistance**
 
 ---
 
