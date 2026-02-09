@@ -10,7 +10,7 @@
 ### 🏆 Autonomous Self-Taught AI Engineering Project
 ### Demonstrating Advanced Technical Skills, Problem-Solving, and Innovation
 
-**Built by an 18-year-old Computer Science aspirant without formal training**
+**Built by an 21-year-old Computer Science aspirant without formal training**
 
 **[View Project](https://github.com/AbuSultancom/my-ai-assistant)** | **[Report Issue](https://github.com/AbuSultancom/my-ai-assistant/issues)**
 
@@ -48,7 +48,7 @@ This project represents **21 months of autonomous self-study** in artificial int
 |--------|-------|
 | **Model Size** | DeepSeek-R1 14B Parameters |
 | **Hardware Used** | Consumer-Grade Laptop (RTX 4050, 6GB VRAM) |
-| **Training Time** | 18 Months of Self-Study |
+| **Training Time** | 21 Months of Self-Study |
 | **Codebase** | 1,000+ Lines (Custom Configuration) |
 | **Uptime** | 99.9% (24/7 Operation via systemd) |
 | **Monthly Cost** | $0 (Fully Local Deployment) |
@@ -834,7 +834,7 @@ MIT License - Feel free to use this project for learning purposes!
 
 > *"The only limit to what you can achieve is your imagination and your commitment."*
 
-> *— Abdulhameed, Age 18, Self-Taught AI Engineer*
+> *— Abdulhameed, Age 21, Self-Taught AI Engineer*
 
 ---
 
