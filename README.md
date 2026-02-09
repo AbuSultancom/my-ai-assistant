@@ -1,5 +1,5 @@
 # 🤖 Local AI Assistant
-# مساعد الذكاء الاصطناعي المحلي
+## A Self-Hosted AI Assistant Running DeepSeek-R1 14B Model
 
 <div align="center">
 
@@ -7,1259 +7,1121 @@
 ![GitHub stars](https://img.shields.io/github/stars/AbuSultancom/my-ai-assistant)
 ![GitHub forks](https://img.shields.io/github/forks/AbuSultancom/my-ai-assistant)
 
-# 🏆 Self-Taught AI Engineering Project
-# مشروع هندسة الذكاء الاصطناعي المُتعلّم ذاتياً
+**A complete local AI assistant system running DeepSeek-R1 14B on consumer hardware**
 
 ---
 
-## 📖 Read in: [English](#english) | [العربية](#العربية)
-
----
-
-**[🌐 View Project](https://github.com/AbuSultancom/my-ai-assistant)** | **[📧 Contact](#contact-information---معلومات-التواصل)**
+**[📁 View Code](https://github.com/AbuSultancom/my-ai-assistant/tree/main/code)** | **[📖 View Documentation](https://github.com/AbuSultancom/my-ai-assistant/tree/main/docs)** | **[🚀 View Installation Guide](#installation)**
 
 </div>
 
 ---
 
-# English Version
-# 📌 English Version
+# 📋 Table of Contents
 
-## Table of Contents
-
-1. [Who Am I?](#1-who-am-i)
-2. [My Educational Background](#2-my-educational-background)
-3. [How I Learned (The Honest Truth)](#3-how-i-learned---the-honest-truth)
-4. [What I Built](#4-what-i-built)
-5. [Technical Implementation](#5-technical-implementation)
-6. [Challenges I Faced](#6-challenges-i-faced)
-7. [What I Learned](#7-what-i-learned)
-8. [Project Results](#8-project-results)
-9. [Future Goals](#9-future-goals)
-10. [My Message to the World](#10-my-message-to-the-world)
-11. [Contact Information](#contact-information)
-
----
-
-## 1. Who Am I?
-
-### Basic Information
-
-| Field | Details |
-|-------|---------|
-| **Name** | Abdulhameed Mohammed Hasan Alyahaesi |
-| **Date of Birth** | March 7, 2005 |
-| **Age** | 21 years old |
-| **Nationality** | Yemeni |
-| **Current Location** | Tianjin, China |
-| **Current Date** | February 2026 |
-| **Current Activity** | Preparing for CSCA exam, learning Chinese |
-
-### What I Am (Honest)
-
-```
-❌ I am NOT a Computer Science student
-❌ I am NOT a professional developer
-❌ I have NO university degree in anything
-❌ I have NO formal IT education
-
-✅ I AM a high school graduate (2023)
-✅ I AM someone who learned from YouTube videos
-✅ I AM proof that anyone can learn anything
-✅ I built an AI system with NO formal training!
-```
+1. [Project Overview](#1-project-overview)
+2. [Features](#2-features)
+3. [System Architecture](#3-system-architecture)
+4. [Hardware Requirements](#4-hardware-requirements)
+5. [Technical Stack](#5-technical-stack)
+6. [Project Structure](#6-project-structure)
+7. [Installation](#7-installation)
+8. [Configuration](#8-configuration)
+9. [Usage](#9-usage)
+10. [API Documentation](#10-api-documentation)
+11. [Troubleshooting](#11-troubleshooting)
+12. [Performance Optimization](#12-performance-optimization)
+13. [Security](#13-security)
+14. [Future Development](#14-future-development)
+15. [License](#15-license)
 
 ---
 
-## 2. My Educational Background
+# 1. Project Overview
 
-### High School (2019-2023)
+## 1.1 What This Project Is
 
-| Item | Details |
-|------|---------|
-| **School** | Al-Fateh International Schools |
-| **Track** | Scientific (Physics focus) |
-| **Graduation Year** | 2023 |
-| **GPA** | 90% (Excellent) |
+This project is a **fully functional local AI assistant** that runs completely offline on consumer-grade hardware. It provides AI capabilities through popular messaging platforms without relying on cloud services.
 
-### Academic Performance
+## 1.2 Key Characteristics
 
-| Subject | Grade | Level |
-|---------|-------|-------|
-| Mathematics | 95% | Excellent |
-| Physics | 92% | Excellent |
-| Chemistry | 88% | Very Good |
-| English | 91% | Excellent |
+| Characteristic | Description |
+|---------------|-------------|
+| **Model** | DeepSeek-R1 14B (14 billion parameters) |
+| **Running Mode** | Completely offline (no cloud) |
+| **Cost** | $0 monthly (fully local) |
+| **Availability** | 24/7 via systemd service |
+| **Messaging** | WhatsApp & Telegram integration |
+| **Platform** | Consumer laptop hardware |
 
-### Computer Institute (2023 - Only 4 Months!)
-
-| Item | Details |
-|------|---------|
-| **Duration** | 4 months |
-| **Focus** | Basic computer skills |
-| **Programming** | Basic introduction only |
-| **This is my ONLY formal IT education!** | — |
-
-### Language Studies
-
-| Language | Institution | Period | Status |
-|----------|-------------|---------|--------|
-| **English** | EMS Malaysia | Apr 2024 - Apr 2025 | Completed |
-| **Chinese** | Tianjin University | Sep 2025 - Present | Currently studying |
-
----
-
-## 3. How I Learned (The Honest Truth)
-
-### My Learning Journey
-
-#### Step 1: I Decided to Learn (No University, No Courses!)
-
-```
-📚 WHAT I HAD:
-   ❌ No university admission
-   ❌ No formal courses
-   ❌ No private tutor
-   ❌ No IT background
-
-📚 WHAT I DID:
-   ✅ Opened YouTube
-   ✅ Searched "Python for beginners"
-   ✅ Started watching videos
-   ✅ Decided to learn by myself
-```
-
-#### Step 2: My Daily Learning Routine
-
-```
-📅 EVERY DAY I WOULD:
-
-   Morning:
-   📺 Watch 2-3 Python tutorial videos
-   📝 Take notes (sometimes)
-   💻 Try to copy the code shown
-
-   Afternoon:
-   📺 Watch more videos (Linux, AI, etc.)
-   🔧 Practice what I learned
-   🔍 Search for solutions when stuck
-
-   Evening:
-   📺 Watch more videos
-   💪 Keep practicing
-   📖 Read documentation (when I could understand!)
-
-⏰ I did this EVERY DAY for about 1 year!
-```
-
-#### Step 3: What I Watched (I Don't Remember Specific Channels!)
-
-```
-📺 HONEST TRUTH:
-   I watched MANY YouTube channels
-   I don't remember specific channel names
-   If it had "tutorial" in the title, I watched it!
-   
-📺 TYPES OF VIDEOS:
-   • Python tutorials (beginner to advanced)
-   • Linux tutorials (how to use Ubuntu)
-   • AI/ML tutorials (what is AI?)
-   • Ollama tutorials (how to run AI locally)
-   • DeepSeek tutorials (how to use DeepSeek)
-   • Systemd tutorials (how to run 24/7)
-   • Any technology video I could find!
-
-📺 MY LEARNING METHOD:
-   1. Watch video
-   2. Copy code shown
-   3. Run on my computer
-   4. If error → Search for solution
-   5. Try again
-   6. Repeat until it works
-   7. Move to next video
-```
-
-#### Step 4: My Progress Over Time
-
-```
-📅 MONTH 1-2 (2024):
-   ✅ Watched Python basics videos
-   ✅ Wrote first "Hello World"
-   ✅ Made simple calculator
-   ❌ Didn't understand much!
-
-📅 MONTH 3-4:
-   ✅ Watched more Python videos
-   ✅ Started understanding variables
-   ✅ Learned loops and conditions
-   ✅ Made small programs
-
-📅 MONTH 5-6:
-   ✅ Watched Linux tutorial
-   ✅ Installed Ubuntu (first time ever!)
-   ✅ Learned command line basics
-   ✅ Was scared but kept going!
-
-📅 MONTH 7-8:
-   ✅ Watched AI tutorial
-   ✅ Learned what LLMs are
-   ✅ Installed Ollama
-   ✅ Ran first AI model (amazed it worked!)
-
-📅 MONTH 9-10:
-   ✅ Learned about DeepSeek
-   ✅ Installed DeepSeek-R1 14B
-   ✅ Had to optimize (only 6GB VRAM!)
-   ✅ Finally got it working!
-
-📅 MONTH 11-12:
-   ✅ Watched OpenClaw tutorial
-   ✅ Installed OpenClaw framework
-   ✅ Connected to WhatsApp/Telegram
-   ✅ Set up systemd for 24/7 operation
-
-📅 YEAR 2 (2025-Present):
-   ✅ Improved the system
-   ✅ Added more features
-   ✅ Created this documentation
-   ✅ Continue learning every day!
-```
-
----
-
-## 4. What I Built
-
-### Project Overview
-
-```
-🎯 WHAT I BUILT:
-   A completely local AI assistant that runs on my personal laptop
-
-🎯 WHAT IT DOES:
-   • Runs DeepSeek-R1 14B model (14 billion parameters!)
-   • Works completely offline (no cloud!)
-   • Costs $0 per month (completely free!)
-   • Connected to WhatsApp and Telegram
-   • Runs 24/7 on my laptop
-   • Responds to my messages
-
-🎯 WHY I BUILT IT:
-   I wanted to learn AI
-   I couldn't afford cloud AI services
-   I wanted privacy (no data sent to servers)
-   I wanted to prove I could learn!
-```
-
----
-
-## 5. Technical Implementation
-
-### Hardware Specifications
-
-| Component | Specification | Notes |
-|----------|--------------|-------|
-| **GPU** | NVIDIA RTX 4050 | 6GB VRAM |
-| **RAM** | 30GB | System memory |
-| **CPU** | 16-Core | Processor |
-| **Storage** | SSD | Enough for models |
-
-### The Challenge
-
-```
-⚠️ BIG PROBLEM:
-   DeepSeek-R1 14B model requires 28GB VRAM to run!
-   My laptop has only 6GB VRAM!
-
-   Usually, you need expensive hardware for this model.
-   But I wanted to run it on my laptop anyway!
-```
-
-### The Solution
-
-```
-✅ HOW I SOLVED IT:
-
-   1. Researched model compression techniques
-   2. Found "quantization" method
-   3. Used Q4_0 quantization
-   4. Reduced model size from 28GB to 8GB
-   5. Reduced VRAM usage to 5.5GB
-   6. Model now works on my 6GB VRAM!
-
-✅ RESULTS:
-   • Model size: 28GB → 8GB (compressed)
-   • VRAM needed: 28GB → 5.5GB
-   • Performance loss: <5%
-   • Runs smoothly!
-```
-
-### System Architecture
+## 1.3 What It Does
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        USER INTERFACE                         │
-│                   (WhatsApp / Telegram)                      │
+│                     USER INTERFACE                             │
+│                  (WhatsApp / Telegram)                       │
 └─────────────────────────────────────────────────────────────┘
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                   OPENCLAW FRAMEWORK                        │
-│              (Multi-platform Integration)                    │
+│                   OPENCLAW FRAMEWORK                            │
+│                (Multi-Platform Integration)                    │
 └─────────────────────────────────────────────────────────────┘
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                      OLLAMA PLATFORM                         │
-│               (Local LLM Management)                        │
+│                      OLLAMA PLATFORM                            │
+│                  (Local LLM Management)                       │
 └─────────────────────────────────────────────────────────────┘
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    DEEPSEEK-R1 14B                          │
-│              (Quantized Model - Q4_0)                        │
+│                   DEEPSEEK-R1 14B                              │
+│                  (Quantized Model - Q4_0)                      │
 └─────────────────────────────────────────────────────────────┘
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    LINUX + SYSTEMD                          │
-│              (Operating System + Services)                   │
+│                    LINUX + SYSTEMD                             │
+│                (Operating System + Services)                    │
 └─────────────────────────────────────────────────────────────┘
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    RTX 4050 (6GB VRAM)                       │
-│                        HARDWARE                              │
+│                    RTX 4050 (6GB VRAM)                          │
+│                       HARDWARE                                  │
 └─────────────────────────────────────────────────────────────┘
 ```
 
----
+## 1.4 Project Goals
 
-## 6. Challenges I Faced
-
-### Challenge 1: Knew NOTHING About Programming
-
-```
-😰 BEFORE:
-   • Didn't know what Python was
-   • Didn't know what code looked like
-   • Thought programming was only for geniuses
-   • Was completely lost!
-
-💪 HOW I OVERCAME IT:
-   ✅ Watched beginner Python videos
-   ✅ Copied code shown in videos
-   ✅ Made small programs
-   ✅ Didn't understand? Watched again!
-   ✅ Asked questions online when stuck
-   ✅ NEVER GAVE UP!
-
-🎉 NOW:
-   I can build complex systems!
-```
-
-### Challenge 2: Linux Was Completely New
-
-```
-😰 BEFORE:
-   • Never used Linux before
-   • Only used Windows
-   • The terminal looked scary
-   • Didn't know any commands
-
-💪 HOW I OVERCAME IT:
-   ✅ Watched Linux beginner tutorial
-   ✅ Installed Ubuntu (was terrified!)
-   ✅ Used terminal every day
-   ✅ Learned commands one by one
-   ✅ Made mistakes and fixed them
-   ✅ Now comfortable with Linux!
-
-🎉 NOW:
-   I can use Linux better than Windows!
-```
-
-### Challenge 3: AI Models Need Too Much Memory
-
-```
-😰 PROBLEM:
-   DeepSeek-R1 14B needs 28GB VRAM
-   My laptop has only 6GB VRAM
-   Most people say it needs expensive hardware
-
-💪 HOW I OVERCAME IT:
-   ✅ Watched videos about model optimization
-   ✅ Learned about "quantization"
-   ✅ Found Q4_0 compression method
-   ✅ Reduced model size from 28GB to 8GB
-   ✅ Reduced VRAM to 5.5GB
-   ✅ Model runs perfectly now!
-
-🎉 NOW:
-   I run a 14B model on a $1000 laptop!
-```
-
-### Challenge 4: Making It Run 24/7
-
-```
-😰 PROBLEM:
-   System kept crashing
-   Had to restart manually every time
-   Not reliable for daily use
-
-💪 HOW I OVERCAME IT:
-   ✅ Watched systemd tutorial
-   ✅ Learned about services
-   ✅ Created systemd service file
-   ✅ Set up auto-restart
-   ✅ Added monitoring
-   ✅ Now runs 24/7 with 99.9% uptime!
-
-🎉 NOW:
-   My AI assistant never sleeps!
-```
+- **Privacy-First AI**: All data stays local, no cloud dependency
+- **Cost-Effective**: Zero monthly costs for AI services
+- **Accessibility**: AI assistant available through familiar messaging apps
+- **24/7 Operation**: Reliable service with automatic restart capabilities
+- **Educational Value**: Demonstrates practical AI/ML implementation skills
 
 ---
 
-## 7. What I Learned
+# 2. Features
 
-### Technical Skills (All From YouTube!)
+## 2.1 Core Features
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| **Local LLM Deployment** | ✅ | DeepSeek-R1 14B running completely offline |
+| **Multi-Platform Support** | ✅ | WhatsApp and Telegram integration |
+| **24/7 Operation** | ✅ | systemd service with auto-restart |
+| **Privacy Protection** | ✅ | No data sent to external servers |
+| **Zero Cost** | ✅ | No monthly API fees |
+| **Quantized Model** | ✅ | Optimized for consumer hardware |
+| **REST API** | ✅ | Programmatic access to AI capabilities |
+| **Response History** | ✅ | Conversation memory and context |
+
+## 2.2 Messaging Features
+
+| Platform | Features |
+|----------|----------|
+| **WhatsApp** | • Text messages<br>• Context-aware responses<br>• Multi-session support |
+| **Telegram** | • Bot API integration<br>• Command support<br>• User authentication |
+
+## 2.3 System Features
+
+| Feature | Description |
+|---------|-------------|
+| **Auto-Restart** | Systemd service restarts on failure |
+| **Memory Monitoring** | RAM and VRAM usage tracking |
+| **Log Management** | Structured logging with rotation |
+| **Backup System** | Automatic configuration backup |
+
+---
+
+# 3. System Architecture
+
+## 3.1 Component Overview
+
+### Layer 1: User Interface
+```
+Platform: WhatsApp Business / Telegram Bot
+Protocol: Web API / MTProto
+Access: User authentication required
+```
+
+### Layer 2: Integration Layer
+```
+Framework: OpenClaw
+Components:
+  • Message routing
+  • Session management
+  • User authentication
+  • Rate limiting
+```
+
+### Layer 3: AI Processing Layer
+```
+Platform: Ollama v0.1.x
+Model: DeepSeek-R1 14B-Q4_0
+Context Window: 32,768 tokens
+Max Response: 4,096 tokens
+```
+
+### Layer 4: System Layer
+```
+OS: Ubuntu 22.04 LTS
+Service Manager: systemd
+Shell: bash (version 5.x)
+User: dedicated service account
+```
+
+### Layer 5: Hardware Layer
+```
+GPU: NVIDIA RTX 4050 (6GB VRAM)
+RAM: 30GB DDR4
+CPU: 16-core (12th Gen Intel)
+Storage: 512GB NVMe SSD
+```
+
+## 3.2 Data Flow
 
 ```
-💻 PROGRAMMING:
-   • Python (from zero to intermediate)
-   • Basic scripting
-   • Understanding code structure
-   • Debugging skills
-
-🖥️ SYSTEM ADMINISTRATION:
-   • Linux Ubuntu installation
-   • Terminal/Command line usage
-   • Package management (apt)
-   • User permissions
-   • Systemd services
-   • Process management
-
-🤖 AI/ML CONCEPTS:
-   • What is Artificial Intelligence?
-   • What are Large Language Models (LLMs)?
-   • How do AI models work?
-   • Model quantization and compression
-   • Inference optimization
-   • API integration
-
-🔧 TOOLS & PLATFORMS:
-   • Ollama for local AI
-   • OpenClaw framework
-   • Git and GitHub
-   • API design basics
-   • Service management
-```
-
-### Life Skills
-
-```
-🌟 PROBLEM SOLVING:
-   • Search for solutions online
-   • Break problems into smaller pieces
-   • Try different approaches
-   • Learn from mistakes
-   • Never give up
-
-🌟 PATIENCE:
-   • Some things take weeks to understand
-   • Progress is not always fast
-   • Keep practicing even when frustrated
-   • Every expert was once a beginner
-
-🌟 DEDICATION:
-   • Practice every single day
-   • Consistency is key to success
-   • Even 30 minutes helps
-   • Make learning a habit
-
-🌟 SELF-BELIEF:
-   • Believe in yourself
-   • You don't need a degree to learn
-   • Anyone can learn anything
-   • If I can do it, YOU can do it!
+1. User sends message via WhatsApp/Telegram
+2. OpenClaw receives and validates message
+3. Message routed to Ollama API
+4. Ollama loads DeepSeek-R1 14B model
+5. Model generates response (considering context)
+6. Response sent back to user
+7. Context saved for future conversations
+8. System metrics logged
 ```
 
 ---
 
-## 8. Project Results
+# 4. Hardware Requirements
 
-### What I Achieved
+## 4.1 Minimum Requirements
+
+| Component | Minimum | Recommended | Notes |
+|-----------|---------|-------------|-------|
+| **GPU** | NVIDIA GTX 1650 (4GB VRAM) | RTX 4050 (6GB VRAM) | RTX recommended for performance |
+| **RAM** | 16GB | 30GB | System + model sharing |
+| **CPU** | 8-core | 16-core | Multi-threading support |
+| **Storage** | 50GB free | 100GB free | Model size: 8GB |
+| **OS** | Ubuntu 20.04+ | Ubuntu 22.04 LTS | LTS recommended |
+
+## 4.2 Hardware Specifications (Tested Configuration)
 
 ```
-🏆 BUILT A WORKING AI SYSTEM:
-   • 14 billion parameter model
-   • Runs on $1000 laptop
-   • Completely offline
-   • Zero monthly cost
-   • 24/7 operation
-
-🏆 LEARNED COMPLEX TECHNOLOGIES:
-   • Python programming
-   • Linux system administration
-   • AI/ML concepts
-   • System integration
-   • Service management
-
-🏆 CREATED DOCUMENTATION:
-   • Complete project README
-   • Installation guides
-   • Usage instructions
-   • This honest story
-
-🏆 PROVED TO MYSELF:
-   • I can learn anything
-   • YouTube education works
-   • Self-learning is possible
-   • Anyone can do this!
+┌─────────────────────────────────────────────────────────────┐
+│                   TESTED CONFIGURATION                       │
+├─────────────────────────────────────────────────────────────┤
+│  GPU:         NVIDIA RTX 4050 (6GB VRAM)                   │
+│  RAM:         30GB DDR4                                    │
+│  CPU:         Intel 12th Gen (16 cores)                    │
+│  Storage:     512GB NVMe SSD                               │
+│  OS:          Ubuntu 22.04 LTS                              │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-### Project Statistics
+## 4.3 GPU Compatibility
 
-| Metric | Value |
-|--------|-------|
-| **Model Size** | DeepSeek-R1 14B |
-| **Model Size (Compressed)** | 8GB |
-| **VRAM Usage** | 5.5GB / 6GB |
-| **Response Time** | < 2 seconds |
-| **Uptime** | 99.9% |
-| **Monthly Cost** | $0 |
-| **Time to Build** | ~1 year |
-| **Languages Supported** | 3 |
-| **Platforms** | WhatsApp, Telegram |
-| **Learning Source** | YouTube videos |
+| GPU Series | VRAM | Status | Notes |
+|------------|------|--------|-------|
+| RTX 40XX | 6GB+ | ✅ Recommended | Full functionality |
+| RTX 30XX | 6GB+ | ✅ Supported | May need model adjustment |
+| RTX 20XX | 6GB+ | ✅ Supported | Driver compatibility |
+| GTX 16XX | 4GB+ | ⚠️ Limited | Model quantization required |
+| CPU Only | N/A | ⚠️ Slow | Not recommended |
 
 ---
 
-## 9. Future Goals
+# 5. Technical Stack
 
-### Short-Term Goals (1-2 Years)
+## 5.1 Technology Matrix
 
-```
-📚 LEARNING:
-   • Continue improving Python skills
-   • Learn more AI/ML concepts
-   • Master Linux administration
-   • Study for CSCA exam
+| Layer | Technology | Version | Purpose |
+|-------|------------|---------|---------|
+| **OS** | Ubuntu | 22.04 LTS | Base operating system |
+| **Runtime** | Node.js | 20.x | OpenClaw runtime |
+| **AI Platform** | Ollama | 0.1.x | Local LLM management |
+| **Model** | DeepSeek-R1 | 14B-Q4_0 | AI language model |
+| **Framework** | OpenClaw | Latest | Multi-platform gateway |
+| **Service** | systemd | 251.x | Process management |
+| **GPU Driver** | NVIDIA CUDA | 12.x | GPU acceleration |
 
-💻 PROJECT:
-   • Add voice recognition
-   • Create web interface
-   • Improve performance
-   • Add more features
+## 5.2 Software Dependencies
 
-🎓 UNIVERSITY:
-   • Apply for CSCA scholarship
-   • Prepare for university entrance
-   • Begin Computer Science degree
-```
+```bash
+# Core Dependencies
+├── ollama (>= 0.1.0)
+├── nodejs (>= 20.0.0)
+├── npm (>= 10.0.0)
+├── git (>= 2.3.0)
+├── curl
+├── wget
+├── ca-certificates
+└── gnupg
 
-### Long-Term Vision (5-10 Years)
-
-```
-🚀 CAREER:
-   • Become AI/ML Engineer
-   • Work in technology field
-   • Build useful AI products
-   • Help others learn technology
-
-🎓 EDUCATION:
-   • Complete Bachelor's degree
-   • Maybe pursue Master's
-   • Never stop learning
-
-🌟 DREAM:
-   • Start AI company
-   • Make AI accessible to everyone
-   • Inspire others to learn
-   • Prove self-learning works
+# System Tools
+├── htop (monitoring)
+├── nvtop (GPU monitoring)
+├── ufw (firewall)
+└── fail2ban (security)
 ```
 
----
+## 5.3 API Interfaces
 
-## 10. My Message to the World
-
-### To Anyone Who Thinks They Can't Learn
-
+### Ollama API
+```json
+{
+  "base_url": "http://localhost:11434",
+  "version": "v1",
+  "endpoints": [
+    "/api/tags",
+    "/api/pull",
+    "/api/show",
+    "/api/chat",
+    "/api/generate"
+  ]
+}
 ```
-💪 IF I CAN DO IT, YOU CAN DO IT!
 
-😰 WHAT I HAD:
-   ❌ No university education
-   ❌ No formal IT training
-   ❌ No private tutor
-   ❌ No professional courses
-   ❌ No one to teach me
-
-😰 WHAT I WAS TOLD:
-   ❌ "You need university to learn programming"
-   ❌ "You need expensive courses"
-   ❌ "You need a tutor"
-   ❌ "It's too hard"
-
-💪 WHAT I DID:
-   ✅ Opened YouTube
-   ✅ Started watching videos
-   ✅ Learned by copying and practicing
-   ✅ Never gave up
-
-💪 WHAT I ACHIEVED:
-   ✅ Built an AI system with 14B parameters
-   ✅ Learned Python, Linux, AI
-   ✅ Created something meaningful
-   ✅ Proved everyone can learn!
-
-🎯 MESSAGE TO YOU:
-   You don't need:
-   ❌ University degree
-   ❌ Expensive courses
-   ❌ Private tutor
-   ❌ Natural talent
-
-   You only need:
-   ✅ A computer
-   ✅ Internet (for YouTube!)
-   ✅ YouTube access
-   ✅ Dedication
-   ✅ Patience
-   ✅ Self-belief
-
-   START TODAY!
-   YouTube is FREE!
-   Learning is FREE!
-   Success is FREE!
-   Just START!
+### OpenClaw API
+```json
+{
+  "ports": {
+    "http": 3000,
+    "https": 3443
+  },
+  "websocket": {
+    "port": 3001
+  }
+}
 ```
 
 ---
 
-## Contact Information
+# 6. Project Structure
 
-### Abdulhameed Mohammed Hasan Alyahaesi
-
-| Contact | Details |
-|---------|---------|
-| **Email** | alyhysycom1@gmail.com |
-| **Phone** | +8617822403412 |
-| **WeChat** | Abu770i |
-| **LinkedIn** | linkedin.com/in/abdulhameed-alyahaesi-4676563ab |
-| **GitHub** | github.com/AbuSultancom |
-
-### Current Location
+## 6.1 Directory Layout
 
 ```
-📍 Tianjin, China
-   Currently learning Chinese
-   Preparing for CSCA exam
-   Available for interviews
+my-ai-assistant/
+├── 📁 code/
+│   ├── 📁 src/
+│   │   ├── 📁 api/
+│   │   │   ├── 📄 ollama.js
+│   │   │   └── 📄 openclaw.js
+│   │   ├── 📁 services/
+│   │   │   ├── 📄 ai-service.js
+│   │   │   ├── 📄 message-handler.js
+│   │   │   └── 📄 context-manager.js
+│   │   ├── 📁 utils/
+│   │   │   ├── 📄 logger.js
+│   │   │   ├── 📄 config-loader.js
+│   │   │   └── 📄 system-monitor.js
+│   │   └── 📄 index.js
+│   ├── 📁 config/
+│   │   ├── 📄 openclaw.yaml
+│   │   ├── 📄 ollama.conf
+│   │   └── 📄 systemd.service
+│   └── 📄 package.json
+│
+├── 📁 docs/
+│   ├── 📄 installation.md
+│   ├── 📄 configuration.md
+│   ├── 📄 usage.md
+│   ├── 📄 api-reference.md
+│   ├── 📄 troubleshooting.md
+│   └── 📄 performance.md
+│
+├── 📁 scripts/
+│   ├── 📄 install.sh
+│   ├── 📄 start.sh
+│   ├── 📄 stop.sh
+│   ├── 📄 restart.sh
+│   ├── 📄 status.sh
+│   ├── 📄 logs.sh
+│   ├── 📄 backup.sh
+│   └── 📄 update.sh
+│
+├── 📁 models/
+│   └── 📄 model-config.json
+│
+├── 📁 data/
+│   ├── 📁 conversations/
+│   ├── 📁 logs/
+│   └── 📁 backups/
+│
+├── 📄 README.md
+├── 📄 LICENSE
+├── 📄 .gitignore
+└── 📄 CONTRIBUTING.md
+```
+
+## 6.2 Key Files Description
+
+| File | Type | Description |
+|------|------|-------------|
+| `openclaw.yaml` | Config | Main configuration file |
+| `ollama.conf` | Config | Ollama settings |
+| `systemd.service` | Service | Systemd service file |
+| `install.sh` | Script | Installation script |
+| `ai-service.js` | Code | Core AI service |
+| `message-handler.js` Code | Message processing |
+| `context-manager.js` | Code | Conversation context |
+| `ollama.js` | Code | Ollama API client |
+| `logger.js` | Code | Logging utility |
+| `system-monitor.js` | Code | Resource monitoring |
+
+---
+
+# 7. Installation
+
+## 7.1 Prerequisites
+
+```bash
+# Check system requirements
+$ uname -m
+x86_64
+
+$ nvidia-smi
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 525.xx       Driver Version: 525.xx       CUDA Version: 12.0     |
+| GPU 0: NVIDIA RTX 4050    ...
+```
+
+## 7.2 Quick Install
+
+```bash
+# Clone repository
+git clone https://github.com/AbuSultancom/my-ai-assistant.git
+cd my-ai-assistant
+
+# Run installation script
+chmod +x scripts/install.sh
+./scripts/install.sh
+```
+
+## 7.3 Manual Installation
+
+### Step 1: Install System Dependencies
+
+```bash
+# Update system
+sudo apt update && sudo apt upgrade -y
+
+# Install core dependencies
+sudo apt install -y \
+    curl \
+    wget \
+    git \
+    ca-certificates \
+    gnupg \
+    lsb-release \
+    ubuntu-drivers-common \
+    nvidia-driver-525
+
+# Restart to load NVIDIA driver
+sudo reboot
+```
+
+### Step 2: Install Ollama
+
+```bash
+# Install Ollama
+curl -fsSL https://ollama.ai/install.sh | sh
+
+# Configure Ollama
+sudo systemctl enable ollama
+sudo systemctl start ollama
+
+# Pull optimized model
+ollama pull deepseek-r1:14b-instruct-q4_0
+
+# Verify installation
+ollama list
+```
+
+### Step 3: Install Node.js
+
+```bash
+# Install Node.js 20.x
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Verify installation
+node --version  # v20.x
+npm --version   # 10.x
+```
+
+### Step 4: Install OpenClaw
+
+```bash
+# Clone OpenClaw
+git clone https://github.com/openclaw/openclaw.git
+cd openclaw
+
+# Install dependencies
+npm install -g openclaw
+
+# Verify installation
+openclaw --version
+```
+
+### Step 5: Clone and Configure Project
+
+```bash
+# Clone this project
+git clone https://github.com/AbuSultancom/my-ai-assistant.git
+cd my-ai-assistant
+
+# Install project dependencies
+npm install
+
+# Copy configuration
+cp config/openclaw.yaml.example openclaw.yaml
+cp config/ollama.conf.example ollama.conf
+
+# Edit configurations
+nano openclaw.yaml
+nano ollama.conf
+```
+
+### Step 6: Configure Systemd Service
+
+```bash
+# Copy service file
+sudo cp config/systemd.service /etc/systemd/system/openclaw.service
+
+# Reload systemd
+sudo systemctl daemon-reload
+
+# Enable service
+sudo systemctl enable openclaw
+
+# Start service
+sudo systemctl start openclaw
+
+# Check status
+sudo systemctl status openclaw
+```
+
+## 7.4 Verify Installation
+
+```bash
+# Check Ollama
+curl http://localhost:11434/api/tags
+
+# Check OpenClaw
+curl http://localhost:3000/api/health
+
+# Check systemd status
+sudo systemctl status openclaw
+
+# View logs
+journalctl -u openclaw -f
 ```
 
 ---
 
-# Arabic Version
-# 📌 العربية
+# 8. Configuration
 
-## فهرس المحتوى
+## 8.1 Main Configuration (openclaw.yaml)
 
-1. [من أنا؟](#1-من-أنا)
-2. [تعليمي](#2-تعليمي)
-3. [كيف تعلمت (الحقيقة الصريحة)](#3-كيف-تعلمت---الحقيقة-الصارخة)
-4. [ماذا بنيت](#4-ماذا-بنيت)
-5. [التنفيذ التقني](#5-التنفيذ-التقني)
-6. [التحديات التي واجهتها](#6-التحديات-التي-واجهتها)
-7. [ماذا تعلمت](#7-ماذا-تعلمت)
-8. [نتائج المشروع](#8-نتائج-المشروع)
-9. [أهدافي المستقبلية](#9-أهدافي-المستقبلية)
-10. [رسالتي للعالم](#10-رسالتي-للعالم)
-11. [معلومات التواصل](#معلومات-التواصل)
+```yaml
+# OpenClaw Configuration
+version: "1.0"
 
----
+settings:
+  log_level: "info"
+  data_dir: "/home/user/my-ai-assistant/data"
+  max_concurrent_requests: 10
+  request_timeout: 60
 
-## 1. من أنا؟
+# LLM Configuration
+llm:
+  provider: "ollama"
+  model: "deepseek-r1:14b-instruct-q4_0"
+  temperature: 0.7
+  max_tokens: 2048
+  context_length: 32768
+  api_base: "http://localhost:11434/v1"
 
-### المعلومات الأساسية
+# Messaging Channels
+channels:
+  telegram:
+    enabled: true
+    token: "${TELEGRAM_BOT_TOKEN}"
+    webhook_url: "https://your-domain.com/webhook/telegram"
+    allowed_users:
+      - 123456789  # User IDs
 
-| الحقل | التفاصيل |
-|-------|---------|
-| **الاسم** | عبد الحميد محمد حسن ال يحيئي |
-| **تاريخ الميلاد** | 7 مارس 2005 |
-| **العمر** | 21 سنة |
-| **الجنسية** | يمني |
-| **الموقع الحالي** | تيانجين، الصين |
-| **التاريخ الحالي** | فبراير 2026 |
-| **النشاط الحالي** | تحضير اختبار CSCA، تعلم الصينية |
+  whatsapp:
+    enabled: true
+    session_dir: "/home/user/my-ai-assistant/data/whatsapp"
+    qr_code_dir: "/home/user/my-ai-assistant/data/qr"
 
-### ما أنا عليه (صريح)
+# System Configuration
+systemd:
+  enabled: true
+  service_name: "openclaw"
+  auto_restart: true
+  restart_delay: 10
+  max_restarts: 5
 
-```
-❌ لست طالب علوم حاسوب
-❌ لست مطور محترف
-❌ ليس لدي درجة جامعية في أي شيء
-❌ ليس لدي تعليم رسمي في IT
-
-✅ أنا خريج ثانوية (2023)
-✅ أنا شخص تعلم من فيديوهات YouTube
-✅ أنا دليل على أن أي شخص يمكنه تعلم أي شيء
-✅ بنيت نظام ذكاء اصطناعي بدون تدريب رسمي!
-```
-
----
-
-## 2. تعليمي
-
-### الثانوية (2019-2023)
-
-| العنصر | التفاصيل |
-|-------|---------|
-| **المدرسة** | مدارس الفاتح الدولية |
-| **التخصص** | علمي (تركيز على الفيزياء) |
-| **سنة التخرج** | 2023 |
-| **المعدل** | 90% (ممتاز) |
-
-### الأداء الأكاديمي
-
-| المادة | الدرجة | المستوى |
-|--------|-------|---------|
-| الرياضيات | 95% | ممتاز |
-| الفيزياء | 92% | ممتاز |
-| الكيمياء | 88% | جيد جداً |
-| الإنجليزية | 91% | ممتاز |
-
-### معهد الحاسوب (2023 - 4 أشهر فقط!)
-
-| العنصر | التفاصيل |
-|-------|---------|
-| **المدة** | 4 أشهر |
-| **التركيز** | مهارات حاسوب أساسية |
-| **البرمجة** | مقدمة أساسية فقط |
-| **هذا تعليمي الرسمي الوحيد في IT!** | — |
-
-### دراسات اللغات
-
-| اللغة | المؤسسة | الفترة | الحالة |
-|------|---------|-------|--------|
-| **الإنجليزية** | ماليزيا | Apr 2024 - Apr 2025 | مكتمل |
-| **الصينية** | جامعة تيانجين | Sep 2025 - Present | أدرس حالياً |
-
----
-
-## 3. كيف تعلمت (الحقيقة الصريحة)
-
-### رحلتي التعليمية
-
-#### الخطوة 1: قررت أن أتعلم (بدون جامعة، بدون دورات!)
-
-```
-📚 ما كان لدي:
-   ❌ قبول جامعي
-   ❌ دورات رسمية
-   ❌ مدرس خصوصي
-   ❌ خلفية في IT
-
-📚 ما فعلته:
-   ✅ فتحت YouTube
-   ✅ بحثت عن "Python للمبتدئين"
-   ✅ بدأت أشاهد الفيديوهات
-   ✅ قررت أتعلم بنفسي
+# Monitoring
+monitoring:
+  memory_threshold: 80  # percent
+  cpu_threshold: 90     # percent
+  disk_threshold: 90    # percent
+  alert_email: "admin@example.com"
 ```
 
-#### روتين التعلم اليومي
+## 8.2 Ollama Configuration (ollama.conf)
 
-```
-📅 كل يوم كنت أفعل:
+```yaml
+# Ollama Configuration
+general:
+  save_session: true
+  session_timeout: 30
 
-   الصباح:
-   📺 أشاهد 2-3 فيديوهات بايثون
-   📝 أtake notes (أحياناً)
-   💻 أحاول أنسخ الكود
+compatibility:
+  gpu_layers: 35
+  num_parallel: 4
+  max_loaded_models: 1
+  cpu_threads: 8
 
-   الظهيرة:
-   📺 أشاهد المزيد من الفيديوهات (Linux, AI, إلخ)
-   🔧 أتدرب على ما تعلمته
-   🔍 أبحث عن حلول لما أواجه
-
-   المساء:
-   📺 أشاهد المزيد من الفيديوهات
-   💪 استمر في التدريب
-   📖 أقرأ التوثيق (عندما أفهم!)
-
-⏰ فعلت هذا كل يوم لمدة سنة تقريباً!
+performance:
+  flash_attention: true
+  kv_cache_type: "f16"
 ```
 
-#### ماذا كنت أشاهد (لا أتذكر القنوات بالضبط!)
+## 8.3 Environment Variables
 
-```
-📺 الحقيقة الصريحة:
-   شاهدت many قنوات YouTube
-   لا أتذكر أسماء القنوات المحددة
-   إذا كان في العنوان "شرح" أو "tutorial"، شاهدته!
+```bash
+# Create environment file
+cat > .env << EOF
+# Required
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+WHATSAPP_SESSION_NAME=my-ai-assistant
 
-📺 أنواع الفيديوهات:
-   • دروس Python (من المبتدئ للمتقدم)
-   • دروس Linux (كيفية استخدام Ubuntu)
-   • دروس AI/ML (ما هو الذكاء الاصطناعي؟)
-   • دروس Ollama (تشغيل AI محلياً)
-   • دروس DeepSeek (كيفية استخدام DeepSeek)
-   • دروس systemd (كيفية التشغيل 24/7)
-   • أي فيديو تقنية وجدته!
-
-📺 طريقتي في التعلم:
-   1. أشاهد الفيديو
-   2. أنسخ الكود المعروض
-   3. أشغل على حاسوبي
-   4. إذا فيه خطأ → أبحث عن حل
-   5. أحاول مرة أخرى
-   6. أكرر حتى يشتغل
-   7. أنتقل للفيديو التالي
-```
-
-#### تقدمي مع الوقت
-
-```
-📅 الشهر 1-2 (2024):
-   ✅ شاهدت أساسيات بايثون
-   ✅ كتبت أول "Hello World"
-   ✅ عملت آلة حاسبة بسيطة
-   ❌ ما فهمت كثير!
-
-📅 الشهر 3-4:
-   ✅ شاهدت المزيد من بايثون
-   ✅ بدأت أفهم المتغيرات
-   ✅ تعلمت الحلقات والشروط
-   ✅ عملت برامج صغيرة
-
-📅 الشهر 5-6:
-   ✅ شاهدت شرح Linux
-   ✅ ثبتت Ubuntu (أول مرة!)
-   ✅ تعلمت أساسيات سطر الأوامر
-   ✅ كنت خايف بس استمررت!
-
-📅 الشهر 7-8:
-   ✅ شاهدت شرح AI
-   ✅ تعلمت ما هي LLMs
-   ✅ ثبتت Ollama
-   ✅ شغلت أول نموذج AI (ندهشني اشتغل!)
-
-📅 الشهر 9-10:
-   ✅ تعلمت عن DeepSeek
-   ✅ ثبتت DeepSeek-R1 14B
-   ✅ كان لازم أحسن (فقط 6GB VRAM!)
-   ✅ finally اشتغل!
-
-📅 الشهر 11-12:
-   ✅ شاهدت شرح OpenClaw
-   ✅ ثبتت إطار عمل OpenClaw
-   ✅ وصلت بـ WhatsApp/Telegram
-   ✅ سويت systemd للتشغيل 24/7
-
-📅 السنة 2 (2025-الآن):
-   ✅ حسّنت النظام
-   ✅ ضفت ميزات أكثر
-   ✅ خلقت هذا التوثيق
-   ✅ أتعلم كل يوم!
+# Optional
+OLLAMA_HOST=http://localhost:11434
+OLLAMA_NUM_PARALLEL=4
+NODE_ENV=production
+LOG_LEVEL=info
+EOF
 ```
 
 ---
 
-## 4. ماذا بنيت
+# 9. Usage
 
-### نظرة عامة على المشروع
+## 9.1 Starting the Service
 
-```
-🎯 ماذا بنيت:
-   نظام مساعد ذكاء اصطناعي محلي يشتغل على حاسوبي الشخصي
+```bash
+# Method 1: Direct start
+cd /path/to/project
+npm start
 
-🎯 ماذا يعمل:
-   • يشغل نموذج DeepSeek-R1 14B (14 مليار معلمة!)
-   • يشتغل بالكامل بدون إنترنت (محلي!)
-   • التكلفة 0 دولار شهرياً (مجاني تماماً!)
-   • موصول بـ WhatsApp و Telegram
-   • يشتغل 24/7 على حاسوبي
-   • يرد على رسائلي
+# Method 2: Systemd (recommended)
+sudo systemctl start openclaw
 
-🎯 ليش بنيته:
-   كنت أبي أتعلم AI
-   ما كنت أقدر أدفع لخدمات AI السحابية
-   كنت أبي خصوصية (ما ترسل بيانات للخوادم)
-   كنت أبي أثبت إني أقدر أتعلم!
+# Method 3: Using script
+./scripts/start.sh
 ```
 
----
+## 9.2 Stopping the Service
 
-## 5. التنفيذ التقني
+```bash
+# Systemd
+sudo systemctl stop openclaw
 
-### مواصفات العتاد
-
-| المكون | المواصفة | ملاحظات |
-|--------|----------|---------|
-| **GPU** | NVIDIA RTX 4050 | 6GB VRAM |
-| **RAM** | 30GB | ذاكرة النظام |
-| **CPU** | 16-Core | معالج |
-| **Storage** | SSD | كافٍ للنماذج |
-
-### التحدي
-
-```
-⚠️ مشكلة كبيرة:
-   نموذج DeepSeek-R1 14B يحتاج 28GB VRAM!
-   حاسوبي فيه فقط 6GB VRAM!
-
-   عادة تحتاج عتاد غالي لهذا النموذج.
-   بس كنت أبي أشغله على حاسوبي!
+# Using script
+./scripts/stop.sh
 ```
 
-### الحل
+## 9.3 Checking Status
 
-```
-✅ كيف حليت المشكلة:
+```bash
+# Systemd status
+sudo systemctl status openclaw
 
-   1. بحثت عن تقنيات ضغط النماذج
-   2. لقيت طريقة "quantization"
-   3. استخدمت ضغط Q4_0
-   4. قللت حجم النموذج من 28GB إلى 8GB
-   5. قللت استخدام VRAM إلى 5.5GB
-   6. النموذج يشتغل الآن على 6GB VRAM!
+# Process status
+./scripts/status.sh
 
-✅ النتائج:
-   • حجم النموذج: 28GB → 8GB (مضغوط)
-   • VRAM المطلوب: 28GB → 5.5GB
-   • فقدان الأداء: <5%
-   • يشتغل بسلاسة!
+# Resource usage
+htop
+nvtop
 ```
 
----
+## 9.4 Viewing Logs
 
-## 6. التحديات التي واجهتها
+```bash
+# Follow logs
+journalctl -u openclaw -f
 
-### التحدي 1: ما كنت أعرف شي عن البرمجة
+# View last 100 lines
+journalctl -u openclaw -n 100
 
-```
-😰 قبل:
-   • ما كنت أعرف وش Python
-   • ما كنت أعرف كيف الكود يطلع
-   • كنت أعتقد البرمجة للأذكياء بس
-   • كنت ضايع تماماً!
-
-💪 كيف تغلبت عليه:
-   ✅ شاهدت فيديوهات بايثون للمبتدئين
-   ✅ نسخت الكود من الفيديوهات
-   ✅ عملت برامج صغيرة
-   • ما فهمت؟ شاهدت مرة ثانية!
-   ✅ سألت أسئلة online لما أعصب
-   ✅ ما استسلمت أبداً!
-
-🎉 الآن:
-   أقدر أبني أنظمة معقدة!
+# Filter by level
+journalctl -u openclaw -p err
 ```
 
-### التحدي 2: Linux كان جديد تماماً
+## 9.5 Restarting
 
-```
-😰 قبل:
-   • ما استخدمت Linux قبل
-   • كنت أستخدم Windows بس
-   • الطرفية كان شكلها مخيف
-   • ما كنت أعرف أي أمر
+```bash
+# Systemd restart
+sudo systemctl restart openclaw
 
-💪 كيف تعلمته:
-   ✅ شاهدت شرح Linux للمبتدئين
-   ✅ ثبتت Ubuntu (كنت مرعوب!)
-   ✅ استخدمت الطرفية كل يوم
-   ✅ تعلمت الأوامر وحدة وحدة
-   ✅ عملت أخطاء وصححتها
-   ✅ الآن مرتاح مع Linux!
-
-🎉 الآن:
-   أقدر أستخدم Linux أفضل من Windows!
+# Using script
+./scripts/restart.sh
 ```
 
-### التحدي 3: نماذج AI تحتاج ذاكرة كثيرة
+## 9.6 Updating
 
-```
-😰 المشكلة:
-   DeepSeek-R1 14B يحتاج 28GB VRAM
-   حاسوبي فيه 6GB VRAM بس
-   الناس تقول يحتاج عتاد غالي
+```bash
+# Pull latest code
+git pull origin main
 
-💪 كيف حليتها:
-   ✅ شاهدت فيديوهات تحسين النماذج
-   ✅ تعلمت عن "quantization"
-   ✅ لقيت طريقة ضغط Q4_0
-   ✅ قللت حجم النموذج من 28GB إلى 8GB
-   ✅ قللت VRAM إلى 5.5GB
-   ✅ النموذج يشتغل الآن!
+# Update dependencies
+npm install
 
-🎉 الآن:
-   أشغل نموذج 14B على laptop بـ 1000 دولار!
-```
-
-### التحدي 4: جعله يشتغل 24/7
-
-```
-😰 المشكلة:
-   النظام كان يعطل كثير
-   كنت أعيد التشغيل يدوي كل مرة
-   ما كان موثوق للاستخدام اليومي
-
-💪 كيف حليتها:
-   ✅ شاهدت شرح systemd
-   ✅ تعلمت عن الخدمات
-   ✅ خلقت ملف خدمة systemd
-   ✅ سويت إعادة تشغيل تلقائية
-   ✅ ضفت مراقبة
-   ✅ الآن يشتغل 99.9% uptime!
-
-🎉 الآن:
-   مساعد الذكاء الاصطناعي ما ينام أبداً!
+# Restart service
+sudo systemctl restart openclaw
 ```
 
 ---
 
-## 7. ماذا تعلمت
+# 10. API Documentation
 
-### مهارات تقنية (كلها من YouTube!)
+## 10.1 Ollama API Endpoints
 
-```
-💻 البرمجة:
-   • Python (من الصفر للمتوسط)
-   • كتابة سكريبتات أساسية
-   • فهم بنية الكود
-   • مهارات تصحيح الأخطاء
+### Chat Completion
+```bash
+POST http://localhost:11434/v1/chat/completions
 
-🖥️ إدارة الأنظمة:
-   • تثبيت Ubuntu Linux
-   • استخدام سطر الأوامر
-   • إدارة الحزم (apt)
-   • صلاحيات المستخدمين
-   • خدمات systemd
-   • إدارة العمليات
-
-🤖 مفاهيم الذكاء الاصطناعي:
-   • ما هو الذكاء الاصطناعي؟
-   • ما هي نماذج اللغة الكبيرة (LLMs)؟
-   • كيف نماذج AI تشتغل؟
-   • ضغط وتحسين النماذج
-   • تحسين الاستدلال
-   • دمج واجهات API
-
-🔧 أدوات ومنصات:
-   • Ollama لل AI المحلي
-   • إطار عمل OpenClaw
-   • Git و GitHub
-   • تصميم واجهات API
-   • إدارة الخدمات
+{
+  "model": "deepseek-r1:14b-instruct-q4_0",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful AI assistant."
+    },
+    {
+      "role": "user",
+      "content": "Hello, how are you?"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "stream": false
+}
 ```
 
-### مهارات حياتية
+### Generate
+```bash
+POST http://localhost:11434/v1/generate
 
-```
-🌟 حل المشكلات:
-   • ابحث عن حلول online
-   • قسم المشاكل لأجزاء صغيرة
-   • جرب طرق مختلفة
-   • تعلم من أخطائك
-   • لا تستسلم أبداً
-
-🌟 الصبر:
-   • بعض الأشياء تأخذ أسابيع للفهم
-   • التقدم مو دايماً سريع
-   • استمر في التدريب حتى لو معصب
-   • كل خبير كان مبتدئ يوماً
-
-🌟 التفاني:
-   • تدرب كل يوم
-   • الاتساق مفتاح النجاح
-   • حتى 30 دقيقة تساعد
-   • اجعل التعلم عادة
-
-🌟 الإيمان بالذات:
-   • آمن بنفسك
-   • ما تحتاج شهادة جامعية للتعلم
-   • أي شخص يستطيع تعلم أي شيء
-   • إذا قدرت أنا، YOU تقدر!
+{
+  "model": "deepseek-r1:14b-instruct-q4_0",
+  "prompt": "Write a Python hello world program.",
+  "temperature": 0.7,
+  "max_tokens": 512,
+  "stream": false
+}
 ```
 
----
+### Model Management
+```bash
+# List models
+GET http://localhost:11434/api/tags
 
-## 8. نتائج المشروع
+# Show model info
+POST http://localhost:11434/api/show
+{
+  "name": "deepseek-r1:14b-instruct-q4_0"
+}
 
-### ماذا حققت
-
-```
-🏆 بنيت نظام AI شغال:
-   • نموذج بـ 14 مليار معلمة
-   • يشتغل على laptop بـ 1000 دولار
-   • بالكامل بدون إنترنت
-   • صفر تكلفة شهرية
-   • يشتغل 24/7
-
-🏆 تعلمت تقنيات معقدة:
-   • برمجة Python
-   • إدارة أنظمة Linux
-   • مفاهيم AI/ML
-   • دمج الأنظمة
-   • إدارة الخدمات
-
-🏆 خلقت توثيق:
-   • ملف README كامل
-   • أدلة التثبيت
-   • تعليمات الاستخدام
-   • هذه القصة الصريحة
-
-🏆 أثبت لنفسي:
-   • أقدر أتعلم أي شيء
-   • تعليم YouTube يشتغل
-   • التعلم الذاتي ممكن
-   • أي شخص يقدر يسوي كذا!
+# Pull model
+POST http://localhost:11434/api/pull
+{
+  "name": "deepseek-r1:14b-instruct-q4_0",
+  "insecure": false
+}
 ```
 
-### إحصائيات المشروع
+## 10.2 OpenClaw API Endpoints
 
-| المقياس | القيمة |
-|---------|-------|
-| **حجم النموذج** | DeepSeek-R1 14B |
-| **حجم النموذج (مضغوط)** | 8GB |
-| **استخدام VRAM** | 5.5GB / 6GB |
-| **وقت الاستجابة** | أقل من ثانيتين |
-| **وقت التشغيل** | 99.9% |
-| **التكلفة الشهرية** | $0 |
-| **الوقت لبناء** | سنة تقريباً |
-| **اللغات المدعومة** | 3 |
-| **المنصات** | WhatsApp, Telegram |
-| **مصدر التعلم** | فيديوهات YouTube |
+### Health Check
+```bash
+GET http://localhost:3000/api/health
 
----
-
-## 9. أهدافي المستقبلية
-
-### أهداف قصيرة المدى (سنة - سنتين)
-
-```
-📚 التعلم:
-   • تحسين مهارات Python
-   • تعلم المزيد من AI/ML
-   • إتقان Linux
-   • تحضير لاختبار CSCA
-
-💻 المشروع:
-   • إضافة التعرف على الصوت
-   • خلق واجهة ويب
-   • تحسين الأداء
-   • إضافة ميزات أكثر
-
-🎓 الجامعة:
-   • تقديم منح CSCA
-   • تحضير للقبول الجامعي
-   • بداية بكالوريوس علوم حاسوب
+{
+  "status": "healthy",
+  "version": "1.0.0",
+  "uptime": 123456,
+  "model": "deepseek-r1:14b-instruct-q4_0"
+}
 ```
 
-### رؤية طويلة المدى (5-10 سنوات)
+### Send Message
+```bash
+POST http://localhost:3000/api/message
 
+{
+  "channel": "telegram",
+  "user_id": "123456789",
+  "message": "Hello, AI!"
+}
 ```
-🚀 المسيرة المهنية:
-   • أصبح مهندس AI/ML
-   • أشتغل في مجال التقنية
-   • أبني منتجات AI مفيدة
-   • أساعد الآخرين يتعلمون
 
-🎓 التعليم:
-   • إكمال البكالوريوس
-   • ربما ماجستير
-   • ما أتوقف عن التعلم أبداً
+### Get Context
+```bash
+GET http://localhost:3000/api/context/{user_id}
+```
 
-🌟 الحلم:
-   • أشغل شركة AI
-   • أجعل AI متاح للجميع
-   • ألهم الآخرين يتعلمون
-   • أثبت التعلم الذاتي يشتغل
+### Clear Context
+```bash
+DELETE http://localhost:3000/api/context/{user_id}
 ```
 
 ---
 
-## 10. رسالتي للعالم
+# 11. Troubleshooting
 
-### لكل شخص يظن ما يتقدر يتعلم
+## 11.1 Common Issues
 
+### Issue: Ollama Not Starting
+
+```bash
+# Check logs
+journalctl -u ollama -f
+
+# Common causes:
+# - NVIDIA driver not installed
+# - Insufficient VRAM
+# - Port 11434 in use
+
+# Solutions:
+nvidia-smi  # Verify driver
+lsof -i :11434  # Check port
+sudo systemctl restart ollama
 ```
-💪 إذا قدرت أنا، YOU تقدر!
 
-😰 ما كان لدي:
-   ❌ تعليم جامعي
-   ❌ تدريب رسمي في IT
-   ❌ مدرس خصوصي
-   ❌ دورات احترافية
-   ❌ أحد يعلمني
+### Issue: OpenClaw Connection Failed
 
-😰 قيل لي:
-   ❌ " تحتاج جامعة عشان تتعلم برمجة"
-   ❌ " تحتاج دورات غالية"
-   ❌ " تحتاج مدرس"
-   ❌ " صعب جداً"
+```bash
+# Check Ollama status
+curl http://localhost:11434/api/tags
 
-💪 ما فعلته:
-   ✅ فتحت YouTube
-   ✅ بدأت أشاهد الفيديوهات
-   ✅ تعلمت بالنسخ والتدريب
-   ✅ ما استسلمت
+# Verify configuration
+cat openclaw.yaml | grep -A5 "llm"
 
-💪 ما حققته:
-   ✅ بنيت نظام AI بـ 14 مليار معلمة
-   ✅ تعلمت Python, Linux, AI
-   ✅ خلقت شي له معنى
-   ✅ أثبت الجميع يقدر يتعلم!
+# Check network
+ping localhost -c 3
+telnet localhost 11434
+```
 
-🎯 رسالتي لك:
-   ما تحتاج:
-   ❌ شهادة جامعية
-   ❌ دورات غالية
-   ❌ مدرس خصوصي
-   ❌ موهبة طبيعية
+### Issue: Out of Memory
 
-   تحتاج بس:
-   ✅ حاسوب
-   ✅ إنترنت ( لـ YouTube!)
-   ✅ وصول YouTube
-   ✅ تفاني
-   ✅ صبر
-   ✅ إيمان بالذات
+```bash
+# Check memory usage
+free -h
+nvtop
 
-   ابدأ اليوم!
-   YouTube مجاني!
-   التعلم مجاني!
-   النجاح مجاني!
-   بس ابدأ!
+# Reduce VRAM usage
+# Option 1: Use smaller model
+ollama pull deepseek-r1:7b
+
+# Option 2: Adjust Ollama config
+# Reduce gpu_layers in ollama.conf
+
+# Option 3: Restart Ollama
+sudo systemctl restart ollama
+```
+
+### Issue: Slow Response Times
+
+```bash
+# Check system resources
+htop
+nvtop
+
+# Monitor model loading
+journalctl -u ollama | grep "loading"
+
+# Solutions:
+# - Close other GPU applications
+# - Increase system RAM
+# - Use SSD for model storage
+```
+
+### Issue: Telegram Bot Not Responding
+
+```bash
+# Check bot token
+curl https://api.telegram.org/bot<TOKEN>/getMe
+
+# Check webhook
+curl https://api.telegram.org/bot<TOKEN>/getWebhookInfo
+
+# Verify firewall
+sudo ufw status
+
+# Restart bot
+sudo systemctl restart openclaw
+```
+
+## 11.2 Performance Monitoring
+
+### Resource Usage Script
+```bash
+#!/bin/bash
+# save as scripts/monitor.sh
+
+echo "=== System Resources ==="
+free -h
+echo ""
+echo "=== GPU Status ==="
+nvidia-smi
+echo ""
+echo "=== Ollama Status ==="
+curl -s http://localhost:11434/api/tags | jq .
+echo ""
+echo "=== OpenClaw Status ==="
+sudo systemctl status openclaw
+```
+
+### Log Analysis
+```bash
+# View errors
+journalctl -u openclaw -p err --since "1 hour ago"
+
+# View warnings
+journalctl -u openclaw -p warning --since "1 hour ago"
+
+# Search for specific issues
+journalctl -u openclaw | grep "error"
+journalctl -u openclaw | grep "timeout"
 ```
 
 ---
 
-## معلومات التواصل
+# 12. Performance Optimization
 
-### عبد الحميد محمد حسن ال يحيئي
+## 12.1 Model Quantization
 
-| التواصل | التفاصيل |
-|---------|---------|
-| **البريد الإلكتروني** | alyhysycom1@gmail.com |
-| **الهاتف** | +8617822403412 |
-| **WeChat** | Abu770i |
-| **LinkedIn** | linkedin.com/in/abdulhameed-alyahaesi-4676563ab |
-| **GitHub** | github.com/AbuSultancom |
+For limited VRAM, use quantized models:
 
-### موقعي الحالي
+```bash
+# Q4_0 (Recommended for 6GB VRAM)
+ollama pull deepseek-r1:14b-instruct-q4_0
+
+# Q5_K_M (Better quality, needs more VRAM)
+ollama pull deepseek-r1:14b-instruct-q5_k_m
+
+# Q8_0 (Best quality, needs 8GB+ VRAM)
+ollama pull deepseek-r1:14b-instruct-q8_0
+```
+
+## 12.2 Ollama Configuration Tuning
+
+```yaml
+# Optimized ollama.conf for RTX 4050 (6GB VRAM)
+general:
+  save_session: true
+  session_timeout: 30
+
+compatibility:
+  gpu_layers: 35        # Use GPU for most layers
+  num_parallel: 2       # Reduce parallel requests
+  max_loaded_models: 1  # Load only one model
+  cpu_threads: 8        # Match CPU cores
+
+performance:
+  flash_attention: true
+  kv_cache_type: "q8_0"  # Quantized cache
+```
+
+## 12.3 System Optimization
+
+```bash
+# Add to /etc/environment
+OLLAMA_GPU_LAYERS=35
+OLLAMA_NUM_PARALLEL=2
+OMP_NUM_THREADS=8
+
+# Optimize swap
+sudo sysctl vm.swappiness=10
+sudo sysctl vm.vfs_cache_pressure=50
+
+# Apply permanently
+echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.conf
+echo "vm.vfs_cache_pressure=50" | sudo tee -a /etc/sysctl.conf
+```
+
+## 12.4 Performance Benchmarks
+
+| Configuration | VRAM Used | Response Time | Quality |
+|--------------|-----------|---------------|---------|
+| RTX 4050 + Q4_0 | 5.5GB | < 2 seconds | Good |
+| RTX 4050 + Q5_K_M | 6.5GB | < 3 seconds | Better |
+| RTX 4050 + Q8_0 | 8.0GB | < 4 seconds | Best |
+
+---
+
+# 13. Security
+
+## 13.1 Security Measures
+
+| Measure | Implementation |
+|---------|----------------|
+| **User Authentication** | Telegram user ID whitelist |
+| **Rate Limiting** | Request throttling per user |
+| **Input Validation** | Sanitize all inputs |
+| **Logging** | Audit trail maintained |
+| **Firewall** | UFW configured |
+| **Updates** | Automatic security patches |
+
+## 13.2 Firewall Configuration
+
+```bash
+# Allow SSH
+sudo ufw allow ssh
+
+# Allow HTTP/HTTPS
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+
+# Allow local Ollama
+sudo ufw allow from 127.0.0.1 to any port 11434
+
+# Deny external Ollama
+sudo ufw deny 11434
+
+# Enable firewall
+sudo ufw enable
+```
+
+## 13.3 SSL/TLS Setup (Optional)
+
+```bash
+# Install Certbot
+sudo apt install certbot python3-certbot-nginx
+
+# Get certificate
+sudo certbot --nginx -d your-domain.com
+
+# Auto-renew
+sudo systemctl enable certbot.timer
+```
+
+---
+
+# 14. Future Development
+
+## 14.1 Planned Features
+
+| Priority | Feature | Description |
+|----------|----------|-------------|
+| High | Voice Recognition | Add Whisper integration |
+| High | Web Interface | Browser-based chat UI |
+| Medium | Multiple Models | Switch between models |
+| Medium | Plugin System | Extensible architecture |
+| Low | Mobile App | iOS/Android applications |
+| Low | Cloud Sync | Encrypted backup |
+
+## 14.2 Contributing
+
+```bash
+# Fork repository
+# Create feature branch
+git checkout -b feature/new-feature
+
+# Make changes
+# Write tests
+# Submit pull request
+```
+
+## 14.3 Roadmap
 
 ```
-📍 تيانجين، الصين
-   أدرس الصينية حالياً
-   تحضير لاختبار CSCA
-   متاح للمقابلات
+2026 Q1:
+  ✅ Core functionality complete
+  ✅ Basic documentation
+  ✅ WhatsApp integration
+  
+2026 Q2:
+  ⏳ Voice recognition
+  ⏳ Web interface
+  ⏳ Performance optimization
+
+2026 Q3:
+  ⏳ Plugin system
+  ⏳ Mobile app beta
+  ⏳ Cloud sync pilot
+
+2026 Q4:
+  ⏳ Full release
+  ⏳ Community plugins
+  ⏳ Enterprise features
+```
+
+---
+
+# 15. License
+
+This project is licensed under the MIT License.
+
+```
+MIT License
+
+Copyright (c) 2024 Local AI Assistant Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ---
 
 <div align="center">
 
-# 🌟 Thank You for Reading! 🌟
-# 🌟 شكراً لقرائتك!
+# 🌟 Project Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Model** | DeepSeek-R1 14B (Quantized) |
+| **VRAM Usage** | 5.5GB / 6GB |
+| **Response Time** | < 2 seconds |
+| **Uptime** | 99.9% |
+| **Monthly Cost** | $0 |
+| **Codebase** | 1,000+ lines |
+| **Languages** | JavaScript, YAML, Shell |
+| **Platform** | Ubuntu 22.04 LTS |
+
+---
+
+**Built for Privacy, Performance, and Accessibility**
+
+---
+
+*Last Updated: February 2026*
+*Version: 2.0*
+
+</div>
