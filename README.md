@@ -40,7 +40,7 @@
 
 ### Project Overview
 
-This project represents **18 months of autonomous self-study** in artificial intelligence, Linux systems, and software integration. At just 18 years old, I successfully deployed and integrated **DeepSeek-R1 14B**, a 14-billion parameter large language model, to run **entirely on local hardware** without any cloud dependency.
+This project represents **21 months of autonomous self-study** in artificial intelligence, Linux systems, and software integration. At just 21 years old, I successfully deployed and integrated **DeepSeek-R1 14B**, a 14-billion parameter large language model, to run **entirely on local hardware** without any cloud dependency.
 
 ### Key Metrics
 
@@ -75,7 +75,7 @@ This project demonstrates that **cutting-edge AI technology is accessible to any
 **Abdulhameed Mohammed Hasan Alyahaesi**
 
 ```
-🎂 Age: 18 years old (Born: March 7, 2005)
+🎂 Age: 21 years old (Born: March 7, 2005)
 🌍 Nationality: Yemeni
 📍 Current Location: Tianjin, China
 🎓 Education: Al-Fateh International Schools (Scientific Track)
@@ -588,7 +588,7 @@ Result: Seamless multi-platform integration!
 📖 Documentation: Clear technical writing and README creation
 👥 Communication: Explaining technical concepts simply
 🎯 Goal Setting: Clear objectives and milestones
-💪 Persistence: Overcoming challenges over 18 months
+💪 Persistence: Overcoming challenges over 21 months
 ```
 
 ---
@@ -726,7 +726,7 @@ This project demonstrates:
 ✅ Technical Excellence: Advanced AI/ML skills
 ✅ Innovation: Novel approach to local AI
 ✅ Problem Solving: Creative hardware solutions
-✅ Self-Direction: 18 months autonomous learning
+✅ Self-Direction: 21 months autonomous learning
 ✅ Communication: Clear documentation and README
 ✅ Impact: Real-world application and results
 ✅ Growth: Continuous improvement mindset
