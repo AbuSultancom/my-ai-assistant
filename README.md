@@ -801,8 +801,8 @@ I am committed to:
 |----------------|---------|
 | **Email** | alyhysycom1@gmail.com |
 | **Phone** | +8617822403412 |
-| **WeChat** | [Add WeChat ID] |
-| **LinkedIn** | [Add LinkedIn Profile] |
+| **WeChat** | Abu770i |
+| **LinkedIn** | https://www.linkedin.com/in/abdulhameed-alyahaesi-4676563ab |
 | **GitHub** | https://github.com/AbuSultancom |
 | **Project Link** | https://github.com/AbuSultancom/my-ai-assistant |
 
