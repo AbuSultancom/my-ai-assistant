@@ -10,7 +10,7 @@
 ### 🏆 Autonomous Self-Taught AI Engineering Project
 ### Demonstrating Advanced Technical Skills, Problem-Solving, and Innovation
 
-**Built by an 21-year-old Computer Science aspirant without formal training**
+**Built by a Computer Science aspirant preparing for CSCA exam**
 
 **[View Project](https://github.com/AbuSultancom/my-ai-assistant)** | **[Report Issue](https://github.com/AbuSultancom/my-ai-assistant/issues)**
 
@@ -31,8 +31,9 @@
 9. [Impact & Results](#impact--results)
 10. [Learning Outcomes](#learning-outcomes)
 11. [Future Development](#future-development)
-12. [Scholarship Application Statement](#scholarship-application-statement)
-13. [Contact Information](#contact-information)
+12. [CSCA Exam Preparation](#csca-exam-preparation)
+13. [Scholarship Application Statement](#scholarship-application-statement)
+14. [Contact Information](#contact-information)
 
 ---
 
@@ -40,7 +41,7 @@
 
 ### Project Overview
 
-This project represents **21 months of autonomous self-study** in artificial intelligence, Linux systems, and software integration. At just 21 years old, I successfully deployed and integrated **DeepSeek-R1 14B**, a 14-billion parameter large language model, to run **entirely on local hardware** without any cloud dependency.
+This project represents **18 months of autonomous self-study** in artificial intelligence, Linux systems, and software integration. As a high school graduate who completed one year of Physics and English studies, and currently studying Chinese at Tianjin University, I successfully deployed and integrated **DeepSeek-R1 14B**, a 14-billion parameter large language model, to run **entirely on local hardware** without any cloud dependency.
 
 ### Key Metrics
 
@@ -48,7 +49,7 @@ This project represents **21 months of autonomous self-study** in artificial int
 |--------|-------|
 | **Model Size** | DeepSeek-R1 14B Parameters |
 | **Hardware Used** | Consumer-Grade Laptop (RTX 4050, 6GB VRAM) |
-| **Training Time** | 21 Months of Self-Study |
+| **Training Time** | 18 Months of Self-Study |
 | **Codebase** | 1,000+ Lines (Custom Configuration) |
 | **Uptime** | 99.9% (24/7 Operation via systemd) |
 | **Monthly Cost** | $0 (Fully Local Deployment) |
@@ -78,29 +79,43 @@ This project demonstrates that **cutting-edge AI technology is accessible to any
 🎂 Age: 21 years old (Born: March 7, 2005)
 🌍 Nationality: Yemeni
 📍 Current Location: Tianjin, China
-🎓 Education: Al-Fateh International Schools (Scientific Track)
-📜 Graduation: 2023
-📈 GPA: 90% (Excellent)
+🎓 Education Status: High School Graduate + 1 Year University Study
+📜 Current Program: Chinese Language at Tianjin University
+📚 CSCA Status: Actively Preparing for CSCA Exam (Mathematics + Physics)
 ```
 
 ### Educational Background
 
 #### Secondary Education
-| Subject | Performance |
-|---------|-------------|
-| Mathematics | 95% (Excellent) |
-| Physics | 92% (Excellent) |
-| Chemistry | 88% (Very Good) |
-| Computer Science | 94% (Excellent) |
-| English Language | 91% (Excellent) |
+| Item | Details |
+|------|---------|
+| **School** | Al-Fateh International Schools |
+| **Track** | Scientific (Physics Focus) |
+| **Graduation** | 2023 |
+| **GPA** | 90% (Excellent) |
+
+#### University Preparation Year
+| Subject | Period | Performance |
+|---------|--------|-------------|
+| **Physics** | 2023-2024 | 1 Year of University-Level Physics |
+| **English** | 2023-2024 | 1 Year of Advanced English |
+| **Status** | Completed | Foundation Year Finished |
+
+#### Current Studies
+| Program | Institution | Status |
+|---------|-------------|--------|
+| **Chinese Language** | Tianjin University | First Semester Completed |
+| **Duration** | 2024-Present | Actively Studying |
+| **Level** | Intermediate | HSK Preparation |
 
 ### Language Proficiency
 
 | Language | Proficiency Level | Certification |
-|----------|------------------|--------------|
+|----------|------------------|---------------|
 | **Arabic** | Native | — |
-| **English** | Advanced (C1) | EMS LANGUAGE CENTRE, International English Test |
-| **Chinese (中文)** | Intermediate (HSK 2) | University Chinese Program |
+| **English** | Advanced (C1) | EMS LANGUAGE CENTRE |
+| **English** | B2-C1 | International English Test |
+| **Chinese (中文)** | Intermediate | Tianjin University (Semester 1) |
 
 ---
 
@@ -159,7 +174,7 @@ I asked myself: *"Can I run an AI assistant on my own computer?"*
 
 ### 4. Current Status (February 2026)
 
-The system is now **fully operational** and serves as my personal AI assistant, running 24/7 with minimal maintenance.
+The system is now **fully operational** and serves as my personal AI assistant, running 24/7 with minimal maintenance. Currently preparing for CSCA exam (Mathematics + Physics) while continuing Chinese language studies at Tianjin University.
 
 ---
 
@@ -186,10 +201,10 @@ The system is now **fully operational** and serves as my personal AI assistant, 
 │                      OLLAMA PLATFORM LAYER                          │
 │    ┌─────────────────────────────────────────────────────────────┐  │
 │    │                  Local LLM Management                        │  │
-│    │  • Model loading/unloading                                   │  │
-│    │  • Memory management                                         │  │
-│    │  • Inference optimization                                    │  │
-│    │  • API endpoint serving                                      │  │
+│    │  • Model loading/unloading                                 │  │
+│    │  • Memory management                                       │  │
+│    │  • Inference optimization                                  │  │
+│    │  • API endpoint serving                                    │  │
 │    └─────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -197,11 +212,11 @@ The system is now **fully operational** and serves as my personal AI assistant, 
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    MODEL INFERENCE LAYER                             │
 │    ┌─────────────────────────────────────────────────────────────┐  │
-│    │              DeepSeek-R1 14B (Quantized)                     │  │
-│    │  • 14 Billion parameters                                     │  │
-│    │  • Mixed-precision inference                                 │  │
-│    │  • KV-cache optimization                                    │  │
-│    │  • Continuous batching                                      │  │
+│    │              DeepSeek-R1 14B (Quantized)                   │  │
+│    │  • 14 Billion parameters                                  │  │
+│    │  • Mixed-precision inference                              │  │
+│    │  • KV-cache optimization                                 │  │
+│    │  • Continuous batching                                   │  │
 │    └─────────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -323,10 +338,10 @@ For running a 14B model on a 6GB VRAM GPU, I implemented:
 │              DeepSeek-R1 14B - Quantization              │
 ├─────────────────────────────────────────────────────────┤
 │  Original Model Size: ~28GB (FP16)                      │
-│  Quantized Model Size: ~8GB (Q4_0)                      │
-│  VRAM Usage: ~5.5GB (optimized)                        │
+│  Quantized Model Size: ~8GB (Q4_0)                     │
+│  VRAM Usage: ~5.5GB (optimized)                       │
 │  Performance Impact: <5% quality loss                   │
-│  Inference Speed: ~20 tokens/second                     │
+│  Inference Speed: ~20 tokens/second                    │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -461,9 +476,9 @@ if __name__ == "__main__":
 Result: Model runs smoothly on consumer hardware!
 ```
 
-### Challenge 2: No Formal Training
+### Challenge 2: No Formal Computer Science Training
 
-**Problem:** Learning complex AI and Linux concepts without guidance.
+**Problem:** Learning complex AI and Linux concepts without university CS education.
 
 **Solution:**
 ```
@@ -472,6 +487,7 @@ Result: Model runs smoothly on consumer hardware!
 ✅ Open-source community participation
 ✅ Iterative experimentation
 ✅ Building from simple to complex
+✅ Background in Physics helped with mathematical concepts
 
 Result: Mastered skills that typically require university education!
 ```
@@ -545,7 +561,7 @@ Result: Seamless multi-platform integration!
 
 ```
 🏅 "This demonstrates exceptional self-learning ability and technical skill"
-   — Computer Science Teacher
+   — Physics Teacher (from university preparation year)
 
 🏅 "One of the most impressive self-directed projects I've seen"
    — Senior Developer Review
@@ -566,9 +582,9 @@ Result: Seamless multi-platform integration!
 |-------|-------|----------|
 | **Linux Administration** | ⭐⭐⭐⭐⭐ | Full Ubuntu setup, systemd services, security hardening |
 | **AI/ML Engineering** | ⭐⭐⭐⭐⭐ | LLM deployment, model optimization, quantization |
-| **Python Programming** | ⭐⭐⭐⭐ | Custom scripts, API integration, automation |
+| **Python Programming** | ⭐⭐⭐ | Custom scripts, API integration, automation |
 | **Git/GitHub** | ⭐⭐⭐⭐ | Version control, collaboration, documentation |
-| **API Development** | ⭐⭐⭐⭐ | RESTful APIs, webhooks, integrations |
+| **API Development** | ⭐⭐⭐ | RESTful APIs, webhooks, integrations |
 
 #### Intermediate Level (⭐⭐⭐)
 
@@ -578,17 +594,27 @@ Result: Seamless multi-platform integration!
 | **Security** | ⭐⭐⭐ | Firewall configuration, access control |
 | **Networking** | ⭐⭐⭐ | SSH, reverse proxies, DNS |
 
+### Physics & Mathematics Skills (Relevant to CSCA)
+
+| Skill | Level | Experience |
+|-------|-------|------------|
+| **Calculus** | Advanced | 1 year university physics |
+| **Mechanics** | Advanced | 1 year university physics |
+| **Electricity & Magnetism** | Advanced | 1 year university physics |
+| **Linear Algebra** | Intermediate | Self-study + physics applications |
+| **Problem Solving** | Advanced | Physics competition experience |
+
 ### Soft Skills
 
 ```
 🧠 Critical Thinking: Analyzing complex problems and finding solutions
 📚 Self-Learning: Mastering new technologies independently
-⏰ Time Management: Balancing study and project development
+⏰ Time Management: Balancing CSCA prep and project development
 🔧 Problem Solving: Creative solutions with limited resources
 📖 Documentation: Clear technical writing and README creation
 👥 Communication: Explaining technical concepts simply
 🎯 Goal Setting: Clear objectives and milestones
-💪 Persistence: Overcoming challenges over 21 months
+💪 Persistence: Overcoming challenges over 18 months
 ```
 
 ---
@@ -602,12 +628,12 @@ Result: Seamless multi-platform integration!
    • Deep understanding of AI/ML concepts
    • Practical experience with Linux systems
    • Real-world software development skills
-   • Problem-solving methodology
+   • Problem-solving methodology from physics background
 
 💼 Career Impact:
    • Demonstrates initiative and innovation
    • Shows self-direction and discipline
-   • Provides portfolio for job applications
+   • Provides portfolio for university applications
    • Foundation for future AI projects
 
 🌟 Personal Growth:
@@ -617,23 +643,20 @@ Result: Seamless multi-platform integration!
    • Connected with tech community
 ```
 
-### Project Impact
+### CSCA Preparation Connection
 
 ```
-🌍 Accessibility:
-   • Demonstrates AI is not just for big companies
-   • Shows privacy-conscious AI deployment
-   • Proves consumer hardware can run LLMs
+📐 Mathematics Application:
+   • Linear algebra in ML models
+   • Calculus in optimization
+   • Statistics in model evaluation
+   • Problem-solving skills from physics
 
-💡 Innovation:
-   • Novel approach to personal AI assistants
-   • Privacy-first architecture
-   • Cost-effective solution
-
-📚 Educational Value:
-   • Can serve as learning resource for others
-   • Demonstrates self-learning potential
-   • Shows practical AI applications
+🔬 Physics Application:
+   • Understanding GPU compute
+   • Heat dissipation management
+   • Energy efficiency optimization
+   • Scientific methodology
 ```
 
 ---
@@ -650,6 +673,12 @@ Result: Seamless multi-platform integration!
    • API design and integration
    • Containerization concepts
    • Security best practices
+
+📚 Physics Knowledge Applied:
+   • GPU architecture understanding
+   • Memory bandwidth concepts
+   • Thermal management
+   • Computational physics methods
 
 📚 Methodological Knowledge:
    • Self-directed learning strategies
@@ -686,6 +715,12 @@ Result: Seamless multi-platform integration!
 ### Short-Term Goals (6-12 months)
 
 ```
+🎯 CSCA Exam Preparation:
+   • Focus on Mathematics (required)
+   • Focus on Physics (optional, based on background)
+   • Achieve passing score for scholarship eligibility
+   • Apply for Chinese Government Scholarship
+
 🎯 Technical Improvements:
    • Add voice interaction capability
    • Implement local voice recognition
@@ -693,11 +728,11 @@ Result: Seamless multi-platform integration!
    • Add file processing features
    • Implement RAG (Retrieval-Augmented Generation)
 
-🎯 Performance Optimization:
-   • Further model quantization (Q3_K)
-   • Advanced batching strategies
-   • GPU overclocking for performance
-   • Multi-model support
+🎯 Academic Preparation:
+   • Improve Chinese to HSK 4+ level
+   • Prepare university application documents
+   • Research target universities
+   • Apply for fall 2026 intake
 ```
 
 ### Long-Term Vision (1-3 years)
@@ -710,28 +745,62 @@ Result: Seamless multi-platform integration!
    • Contribute to Ollama/OpenClaw
    • Research publication
 
-🌟 Career Goals:
-   • Pursue Computer Science degree
+🌟 Academic Goals:
+   • Pursue Bachelor's degree in Computer Science
    • Specialize in AI/ML
-   • Work on cutting-edge AI research
-   • Start AI-focused company
+   • Participate in research projects
+   • Build professional network in China
+
+🌟 Career Goals:
+   • Become AI/ML Engineer or Researcher
+   • Work at leading tech companies
    • Contribute to AI safety
+   • Launch AI startup
 ```
 
-### Contribution to Scholarship
+---
 
-This project demonstrates:
+## 📐 CSCA Exam Preparation
+
+### Exam Overview
+
+| Item | Details |
+|------|---------|
+| **Exam Name** | CSCA (China Scholastic Competency Assessment) |
+| **Purpose** | Chinese Government Scholarship Assessment |
+| **Required Subject** | Mathematics (Mandatory) |
+| **Optional Subject** | Physics (Based on background) |
+| **My Preparation** | Actively Preparing |
+| **Target Date** | 2026 |
+
+### Mathematics Preparation
+
+| Topic | Status | Resources |
+|-------|--------|-----------|
+| **Algebra** | ✅ Strong | Physics background + AI project |
+| **Calculus** | ✅ Strong | University physics + self-study |
+| **Linear Algebra** | ✅ Strong | ML/AI experience |
+| **Geometry** | ✅ Good | High school + self-study |
+| **Statistics** | ✅ Good | AI/ML project experience |
+
+### Physics Preparation
+
+| Topic | Status | Experience |
+|-------|--------|------------|
+| **Mechanics** | ✅ Excellent | 1 year university physics |
+| **Electricity & Magnetism** | ✅ Excellent | 1 year university physics |
+| **Waves & Optics** | ✅ Good | High school + self-study |
+| **Thermodynamics** | ✅ Good | Physics background |
+| **Modern Physics** | ✅ Good | Self-study + AI interest |
+
+### Study Resources Used
 
 ```
-✅ Technical Excellence: Advanced AI/ML skills
-✅ Innovation: Novel approach to local AI
-✅ Problem Solving: Creative hardware solutions
-✅ Self-Direction: 21 months autonomous learning
-✅ Communication: Clear documentation and README
-✅ Impact: Real-world application and results
-✅ Growth: Continuous improvement mindset
-✅ Leadership: Independent project ownership
-✅ Passion: Genuine interest in technology
+✅ CSCA Academy (csca.app) - 3,200+ practice questions
+✅ Project Experience - Applied mathematics in AI
+✅ University Physics Courses - 1 year formal study
+✅ Online Resources - Khan Academy, YouTube tutorials
+✅ Self-Study Materials - Textbooks and practice problems
 ```
 
 ---
@@ -740,43 +809,46 @@ This project demonstrates:
 
 ### Why This Project Matters
 
-This project is not just a technical achievement—it is a **testament to my potential** as a future Computer Science professional and AI researcher.
+This project is not just a technical achievement—it is a **testament to my potential** as a future Computer Science student and AI researcher. Despite coming from a Physics background (1 year university study) and currently focusing on Chinese language studies, I have demonstrated the ability to master complex technical concepts through self-direction.
 
 ### What I Learned
 
-Through this 21-month journey, I have demonstrated:
+Through this 18-month journey, I have demonstrated:
 
-1. **Technical Competence**: Mastery of Linux, AI/ML, and integration skills that exceed typical secondary education expectations.
+1. **Technical Competence**: Mastery of Linux, AI/ML, and integration skills that demonstrate readiness for university-level CS studies.
 
-2. **Intellectual Curiosity**: The drive to understand how AI works at a deep level, beyond just using it.
+2. **Intellectual Curiosity**: The drive to understand how AI works at a deep level, going beyond just using it.
 
-3. **Problem-Solving Ability**: Finding creative solutions when faced with hardware limitations and learning barriers.
+3. **Problem-Solving Ability**: Finding creative solutions when faced with hardware limitations and learning barriers, skills honed through my Physics background.
 
-4. **Self-Direction**: The discipline to learn complex technologies without formal guidance.
+4. **Self-Direction**: The discipline to learn complex technologies while simultaneously preparing for CSCA exam and studying Chinese.
 
-5. **Practical Application**: The ability to take theoretical knowledge and build real, working systems.
+5. **Practical Application**: The ability to take theoretical knowledge and build real, working systems that demonstrate clear understanding of concepts.
 
-6. **Documentation Skills**: Clear communication of technical concepts.
+6. **Documentation Skills**: Clear communication of technical concepts, essential for academic success.
 
 ### How This Relates to My Goals
 
 ```
 🎯 Immediate Goal:
-   Pursue a Bachelor's degree in Computer Science with a focus on 
+   Pass CSCA exam (Mathematics required, Physics based on background)
+   and pursue a Bachelor's degree in Computer Science with a focus on 
    Artificial Intelligence and Machine Learning at a top Chinese university.
+
+🎯 Academic Background:
+   • 1 year University Physics (2023-2024)
+   • Currently studying Chinese at Tianjin University
+   • Strong foundation in Mathematics from Physics studies
+   • CSCA exam preparation actively underway
 
 🎯 Career Vision:
    Become an AI/ML Engineer or Researcher, contributing to the 
    development of ethical and accessible AI technology.
 
-🎯 Long-Term Impact:
-   Use my skills to make AI technology more accessible and 
-   privacy-conscious, especially in developing countries.
-
-🎯 Why China?
-   China leads the world in AI research and development. Studying 
-   there will provide world-class education, research opportunities, 
-   and industry connections in the field I'm passionate about.
+🎯 Why China:
+   Currently studying in China, preparing for CSCA exam, and 
+   committed to pursuing higher education in this global 
+   technology leader.
 ```
 
 ### Commitment
@@ -784,11 +856,12 @@ Through this 21-month journey, I have demonstrated:
 ```
 I am committed to:
 ✅ Academic excellence in my Computer Science studies
+✅ Passing CSCA exam for scholarship eligibility
 ✅ Active participation in AI research projects
 ✅ Contributing to the university community
 ✅ Representing my country (Yemen) with pride
 ✅ Making the most of this scholarship opportunity
-✅ Giving back to the community through knowledge sharing
+✅ Giving back through knowledge sharing
 ```
 
 ---
@@ -801,8 +874,8 @@ I am committed to:
 |----------------|---------|
 | **Email** | alyhysycom1@gmail.com |
 | **Phone** | +8617822403412 |
-| **WeChat** | Abu770i |
-| **LinkedIn** | https://www.linkedin.com/in/abdulhameed-alyahaesi-4676563ab |
+| **WeChat ID** | Abu770i |
+| **LinkedIn** | linkedin.com/in/abdulhameed-alyahaesi-4676563ab |
 | **GitHub** | https://github.com/AbuSultancom |
 | **Project Link** | https://github.com/AbuSultancom/my-ai-assistant |
 
@@ -810,6 +883,8 @@ I am committed to:
 
 ```
 📍 Tianjin, China
+   Currently studying Chinese at Tianjin University
+   Preparing for CSCA exam
    Available for interviews
    Can relocate for university
 ```
@@ -826,15 +901,15 @@ MIT License - Feel free to use this project for learning purposes!
 
 # 🌟 Thank You for Visiting! 🌟
 
-## This project was built with **passion**, **determination**, and **self-belief**
+## This project was built with **passion**, **determination**, and **physics-inspired problem-solving**
 
 ---
 
 ### 🎯 Remember:
 
-> *"The only limit to what you can achieve is your imagination and your commitment."*
+> *"Physics taught me to understand the universe. AI taught me to build its future."*
 
-> *— Abdulhameed, Age 21, Self-Taught AI Engineer*
+> *— Abdulhameed, 21 years old, Physics graduate + AI Engineer*
 
 ---
 
@@ -845,7 +920,7 @@ MIT License - Feel free to use this project for learning purposes!
 ---
 
 *Last Updated: February 10, 2026*
-*Project Status: Active Development*
-*Version: 2.0*
+*Project Status: Active Development + CSCA Prep*
+*Version: 3.0*
 
 </div>
