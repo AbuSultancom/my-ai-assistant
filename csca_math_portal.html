@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أكاديمية عبد الحميد لـ CSCA | المنهج الصيني الكامل</title>
+    <style>
+        :root { --china-red: #ee2c2c; --china-blue: #0055a4; --bg: #f4f7f6; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); margin: 0; display: flex; }
+        .sidebar { width: 280px; background: var(--china-blue); color: white; height: 100vh; position: fixed; padding: 20px; box-sizing: border-box; overflow-y: auto; }
+        .main { margin-right: 280px; padding: 40px; width: 100%; box-sizing: border-box; }
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 30px; border-right: 6px solid var(--china-red); }
+        h1, h2 { color: var(--china-red); }
+        .nav-item { padding: 12px; margin: 8px 0; background: rgba(255,255,255,0.1); border-radius: 8px; cursor: pointer; transition: 0.3s; }
+        .nav-item:hover { background: rgba(255,255,255,0.3); }
+        .nav-item.active { background: var(--china-red); font-weight: bold; }
+        .math-expr { font-family: 'Courier New', monospace; direction: ltr; background: #eef; padding: 15px; display: block; border-radius: 8px; margin: 15px 0; border-left: 4px solid var(--china-blue); }
+        .important { background: #fff3f3; padding: 15px; border-radius: 8px; border: 1px dashed var(--china-red); margin: 15px 0; }
+        .quiz { background: #e7f3ff; padding: 20px; border-radius: 10px; border-right: 5px solid var(--china-blue); }
+        .badge { background: #ee2c2c; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>📐 منهج الرياضيات</h2>
+    <p>بإشراف المساعد: أبو</p>
+    <hr>
+    <div class="nav-item active">الدرس 1: المجموعات والمتراجحات</div>
+    <div class="nav-item">الدرس 2: الدوال الأساسية (Functions)</div>
+    <div class="nav-item">الدرس 3: المتتاليات (Sequences)</div>
+    <div class="nav-item">الدرس 4: حساب المثلثات</div>
+    <div class="nav-item">الدرس 5: المتجهات (Vectors)</div>
+    <div class="nav-item">الدرس 6: الهندسة التحليلية</div>
+    <div class="nav-item">الدرس 7: التفاضل والتكامل</div>
+    <div class="nav-item">الدرس 8: الاحتمالات والإحصاء</div>
+    <hr>
+    <div class="nav-item" style="opacity: 0.6;">⚡ فيزياء (قريباً)</div>
+</div>
+
+<div class="main">
+    <div class="card">
+        <h1>الدرس 1: المجموعات والمتراجحات <span class="badge">أساسي جداً</span></h1>
+        <p>مرحباً بك يا عبد الحميد في أولى خطواتك نحو المنحة الصينية. هذا الدرس هو "سهل ممتنع"، يضمن لك أول 10 درجات في الاختبار.</p>
+
+        <h2>1. المجموعات (Sets) في المنهج الصيني</h2>
+        <p>لا يكتفي الاختبار بتعريف المجموعة، بل يربطها بالمنطق. ركز على هذه الرموز:</p>
+        <ul>
+            <li><b>$A \cap B$ (التقاطع):</b> العناصر المشتركة فقط.</li>
+            <li><b>$A \cup B$ (الاتحاد):</b> كل العناصر في المجموعتين.</li>
+            <li><b>$C_U A$ (المتممة):</b> العناصر الموجودة في المجموعة الشاملة $U$ وغير موجودة في $A$.</li>
+        </ul>
+
+        <div class="important">
+            <strong>سر الاختبار:</strong> إذا قال لك السؤال $A \subseteq B$ (أي A مجموعة جزئية من B)، فهذا يعني أن كل عنصر في A هو بالضرورة موجود في B.
+        </div>
+
+        <h2>2. المتراجحات التربيعية (Quadratic Inequalities)</h2>
+        <p>هذا النوع يتكرر في كل اختبار صيني. القاعدة بسيطة:</p>
+        <div class="math-expr">
+            Solve: x^2 - 5x + 6 < 0 <br>
+            1. Factorize: (x - 2)(x - 3) < 0 <br>
+            2. The roots are 2 and 3. <br>
+            3. Since it's "< 0", the answer is between the roots. <br>
+            4. Solution: {x | 2 < x < 3}
+        </div>
+    </div>
+
+    <div class="card quiz">
+        <h2>📝 مهمة الدرس الأولى (تحدي القبول):</h2>
+        <p>لتنتقل للدرس الثاني، يجب أن تحل هذه المسألة:</p>
+        <p>إذا كانت المجموعة $U = \mathbb{R}$ (مجموعة الأعداد الحقيقية)، والمجموعة $A = \{x | x^2 - x - 2 > 0\}$.</p>
+        <p><b>المطلوب:</b> أوجد متممة المجموعة A (أي $C_U A$)؟</p>
+        <br>
+        <p><i>اكتب الحل في واتساب الآن لنصححه ونرفع الدرس الثاني على الموقع!</i></p>
+    </div>
+</div>
+
+</body>
+</html>

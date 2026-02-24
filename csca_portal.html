@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة عبد الحميد التعليمية | CSCA China</title>
+    <style>
+        :root {
+            --china-red: #ee2c2c;
+            --china-blue: #0055a4;
+            --bg-color: #f8f9fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background: var(--china-blue);
+            color: white;
+            position: fixed;
+            right: 0;
+            padding: 20px;
+        }
+        .main-content {
+            margin-right: 270px;
+            padding: 40px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        h1, h2 { color: var(--china-red); }
+        .nav-item {
+            padding: 10px;
+            margin: 5px 0;
+            background: rgba(255,255,255,0.1);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .nav-item:hover { background: rgba(255,255,255,0.2); }
+        .important-note {
+            border-right: 5px solid var(--china-red);
+            background: #fff3f3;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .math-expr {
+            font-family: 'Courier New', monospace;
+            direction: ltr;
+            background: #eee;
+            padding: 10px;
+            display: block;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .quiz-section {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 10px;
+            border-right: 5px solid var(--china-blue);
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background: var(--china-red);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>أكاديمية CSCA</h2>
+    <p>مرحباً عبد الحميد 🎓</p>
+    <hr>
+    <div class="nav-item">📐 الرياضيات - الدرس 1</div>
+    <div class="nav-item">⚡ الفيزياء - الدرس 1</div>
+    <div class="nav-item">📊 جدول المذاكرة</div>
+    <div class="nav-item">📝 بنك الأسئلة</div>
+</div>
+
+<div class="main-content">
+    <div class="card">
+        <h1>الدرس الأول: المجموعات والمتراجحات (الرياضيات)</h1>
+        <p>هذا الدرس يركز عليه الاختبار الصيني في أول 5 أسئلة دائماً.</p>
+        
+        <div class="important-note">
+            <strong>نقطة هامة جداً للاختبار:</strong> الصينيون يحبون دمج "المنطق" مع "المجموعات". إذا قال لك (P هو شرط كافٍ لـ Q)، فهذا يعني أن المجموعة P هي مجموعة جزئية من Q.
+        </div>
+
+        <h2>الشرح المبسط:</h2>
+        <p>المجموعة هي تجمع عناصر. في الاختبار الصيني (CSCA) غالباً ما تكون المجموعات عبارة عن حلول لمتراجحات.</p>
+        
+        <h3>1. العمليات المشهورة:</h3>
+        <ul>
+            <li><b>التقاطع (∩):</b> الأرقام المشتركة بين المجموعتين.</li>
+            <li><b>الاتحاد (∪):</b> دمج المجموعتين في واحدة.</li>
+        </ul>
+
+        <h3>2. حل المتراجحة التربيعية:</h3>
+        <p>لحل المتراجحة: <span class="math-expr">x^2 - 4x + 3 ≤ 0</span></p>
+        <ol>
+            <li>حلل المعادلة: (x-1)(x-3) ≤ 0</li>
+            <li>الأصفار هي 1 و 3.</li>
+            <li>بما أن العلامة (≤ 0) نأخذ المنطقة "بين" الرقمين.</li>
+            <li>الحل: [1, 3]</li>
+        </ol>
+    </div>
+
+    <div class="card quiz-section">
+        <h2>📝 اختبر نفسك (سؤال من امتحان صيني سابق):</h2>
+        <p>إذا كانت المجموعة A = {x | 1 < x < 4} والمجموعة B = {x | x^2 - 5x + 6 < 0}.</p>
+        <p><b>المطلوب:</b> أوجد التقاطع (A ∩ B)؟</p>
+        <br>
+        <p><i>اكتب الحل هنا أو أرسله لي في واتساب للتصحيح:</i></p>
+        <input type="text" placeholder="اكتب إجابتك هنا...">
+        <button onclick="alert('أرسل الحل في واتساب ليقوم أبو بتصحيحه فوراً!')">تحقق من الحل</button>
+    </div>
+</div>
+
+</body>
+</html>
