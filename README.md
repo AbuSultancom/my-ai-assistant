@@ -1,24 +1,53 @@
-# 🤖 Local AI Assistant (Privacy-First Intelligence)
+# 🤖 Local AI Assistant (Privacy-First Sovereign Intelligence)
 
-[![Status](https://img.shields.io/badge/Status-Live-brightgreen)](https://github.com/AbuSultancom/my-ai-assistant)
-[![Model](https://img.shields.io/badge/Model-DeepSeek--R1--14B-blue)](https://ollama.com)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Uptime](https://img.shields.io/badge/Uptime-99.9%25-brightgreen)](https://github.com/AbuSultancom/my-ai-assistant)
+[![Platform](https://img.shields.io/badge/Platform-Fedora%20/%20Ubuntu-orange)](https://docs.openclaw.ai)
+[![AI Model](https://img.shields.io/badge/Model-DeepSeek--R1--14B-blue)](https://ollama.com)
 
-A fully functional, **self-hosted AI assistant** designed to run 100% offline on consumer hardware. This project integrates cutting-edge LLMs with everyday messaging platforms like WhatsApp and Telegram.
-
-## 🛠️ Technical Stack
-- **AI Core:** DeepSeek-R1 14B (Quantized Q4_0)
-- **Deployment:** Ollama (Local LLM Management)
-- **Gateway:** OpenClaw (Multi-platform Messaging Relay)
-- **Environment:** Fedora Linux / Ubuntu
-- **Hardware:** Tested on NVIDIA RTX 4050 (6GB VRAM)
-
-## 🚀 Key Features
-- **Zero Cost:** No subscription or API fees.
-- **Total Privacy:** Conversations never leave the local network.
-- **24/7 Availability:** Managed via `systemd` for 99.9% uptime.
-
-## 🎓 About the Developer
-I am **Abdulhameed Alyahaesi**, a self-taught developer passionate about AI research and practical implementation. This project is part of my journey toward a Bachelor's in Computer Science.
+A fully functional, **self-hosted AI assistant** designed to run 100% offline on consumer hardware. This project proves that high-level intelligence can be deployed locally, ensuring total data privacy and zero API costs.
 
 ---
-*"Learning is a journey, not a destination."*
+
+## 🏗️ System Overview
+This project bridges the gap between local LLM inference and daily communication tools. 
+
+### ⚙️ The Technical Stack
+- **AI Core:** DeepSeek-R1 14B (Optimized with Q4_0 Quantization)
+- **Engine:** Ollama (Production-grade LLM management)
+- **Interface:** OpenClaw (Universal Messaging Gateway)
+- **Deployment:** Managed via `systemd` for 24/7 reliability.
+- **Hardware Target:** NVIDIA RTX 4050 (6GB VRAM)
+
+---
+
+## 📊 Logic Flow
+```mermaid
+graph TD
+    A[User on WhatsApp] -->|Input| B(OpenClaw Relay)
+    B -->|API Request| C(Ollama Inference)
+    C -->|GPU Processing| D{DeepSeek-R1 14B}
+    D -->|Generated Text| C
+    C -->|JSON Response| B
+    B -->|Smart Reply| A
+```
+
+---
+
+## 🌟 Key Highlights for Admission
+- **Hardware Optimization:** Successfully deployed a 14B parameter model on a 6GB VRAM mobile GPU using advanced quantization techniques.
+- **End-to-End Dev:** Covered everything from Linux system administration to Node.js backend logic.
+- **Product-Minded:** Focused on UX by allowing the AI to be accessible through familiar apps like WhatsApp.
+
+---
+
+## 📖 Documentation
+- [Detailed System Architecture](docs/SYSTEM_ARCHITECTURE.md)
+- [Installation Guide](https://github.com/AbuSultancom/my-ai-assistant#how-to-install)
+
+---
+
+## 🎓 About the Developer
+I am **Abdulhameed Alyahaesi**, a self-taught developer and AI enthusiast. This project is a testament to my ability to master complex stacks independently. I am currently seeking a Bachelor's in Computer Science to further deepen my theoretical foundations.
+
+*"Innovation happens when we bring high-tech to the local machine."*
