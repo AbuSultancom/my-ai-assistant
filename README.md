@@ -67,3 +67,14 @@ I am **Abdulhameed Alyahaesi**, a self-taught developer and AI enthusiast. This 
 > "Don't wait for a degree to start building. I built this while learning. The best way to understand AI is to deploy it locally and break things until they work."
 
 ---
+
+---
+
+## 🗺️ Roadmap
+- [ ] Integration with Whisper for Voice Messages.
+- [ ] Web-based UI Dashboard.
+- [ ] Multi-agent support (Researcher + Coder).
+- [ ] Automated model switching based on VRAM availability.
+
+---
+**Proudly built by a future Computer Scientist.**
